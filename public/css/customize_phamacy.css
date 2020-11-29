@@ -1,0 +1,35 @@
+th,td{ text-align: center; }
+.table td, .table th{ padding: 1.2rem;}
+.table thead th{ border-bottom: 1px;}
+thead th,tbody td,tbody th{ border-right: 1px solid #dee2e6;}
+thead th:last-child ,tbody th:last-child,tbody td:last-child{ border-right: none;}
+
+tbody tr:last-child{ border-bottom: 1px solid #dee2e6;}
+
+thead tr{ background-color: #f2f2f2;}
+thead th:first-child, tbody th{ }
+
+@media only screen and (max-width: 991px){
+  
+  
+}
+@media only screen and (max-width: 767px){
+ 
+  
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+@media only screen and (max-width: 479px) {
+
+    .feature-block{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .table{
+        width: 220%;
+        
+    }
+ 
+}

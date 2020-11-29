@@ -1,0 +1,26 @@
+extends ../layout/default.pug
+block content
+	.container
+		.my-2
+			h1= '아쿠아넷 공지/뉴스'
+			if user && user.id=='aquaadmin'
+			hr
+			button.btn.btn-primary(onclick="location.href='/board/write';") 글작성
+		table.table.text-center
+			thead.theadline
+				tr
+					th 제목
+					th 작성자
+					th 내용
+					th 작성일
+			tbody.tbodyline
+				each v in lists
+					tr
+						td.text-left
+							a(href=`/board/view/${v.id}`)= v.title
+								if v.savefile
+									i.fa.fa-file.ml-2
+						td= '관리자'
+						td.text-left= v.content
+						td= v.wdate
+		include ../inc/pager.pug
