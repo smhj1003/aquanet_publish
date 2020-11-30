@@ -6,7 +6,8 @@ header .logo {}
 .base-navi-wrap {display: flex; justify-content: flex-end; align-items: flex-end;}
 header .navi {padding: 0.25em 0.5em;}
 
-.table{ border-spacing: 1px;}
+.table{ border-spacing: 1px; max-width: 100%;}
 .tbodyline{ border-bottom: 1px solid #dee2e6; border-top: 0px solid #dee2e6 ;}
 .theadline tr{ border-bottom: 1px solid #dee2e6;}
+.table .theadline th:first-child{ width: 50%;}
 

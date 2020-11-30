@@ -2,7 +2,7 @@ const { alert } = require('../modules/util');
 
 const isUser = (req, res, next) => {
 	if(req.session.user) next();
-	else res.send(alert('로그인 후에 사용하세요.', '/user/login'));
+	else res.send(alert('로그인 후에 사용하세요.', '/board'));
 }
 
 const isGuest = (req, res, next) => {

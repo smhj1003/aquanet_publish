@@ -3,3 +3,40 @@
   box-shadow: 0px 0 30px rgba(0, 0, 0, .3);
 
 }
+
+.catalog-page{
+  margin-top: 7%;
+}
+
+
+
+@media only screen and (max-width: 1199px){
+ 
+  .catalog-page{
+    margin-top: 14%;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px){
+  .inner a img{
+   padding: 40px;
+ }
+  
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+@media only screen and (max-width: 479px) {
+
+ 
+ 
+}
+
+@media only screen and (max-width: 320px) {
+
+ 
+ 
+}

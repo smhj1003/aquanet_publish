@@ -16,9 +16,10 @@
   transform: translate(-50%,-50%);
   
 }
-
-.catalog-page{
-  margin-top: 7%;
+.why-us-three .why-box .icon-box img{
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 
 @media only screen and (max-width: 1899px){}

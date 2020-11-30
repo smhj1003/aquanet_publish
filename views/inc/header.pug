@@ -20,7 +20,7 @@ header.main-header
               a(href='/html/contact.html')
                 | 메일로 연락처 남기기
                 span.icon.flaticon-play-button-1
-  .header-lower
+  .header-lower.d-none.d-sm-block
     .auto-container
       .inner.clearfix
         .nav-outer.clearfix
@@ -95,12 +95,9 @@ header.main-header
       .nav-logo
         a(href='index.html')
           img(src='../images/logo3.png' alt='' title='')
-.align_right
-  span= `${user && user.username ? '['+user.username+']' : ''}`
-      .base-navi-wrap
-        span
-        if user && user.id
-          a.navi(href='/user/logout') LOGOUT
-        else
-          a.navi(href='/user/join') JOIN
-          a.navi(href='/user/login') LOGIN
+
+span= `${user && user.username ? '['+user.username+']' : ''}`
+  .base-navi-wrap
+  span
+    if user && user.id
+      a.navi(href='/user/logout') LOGOUT

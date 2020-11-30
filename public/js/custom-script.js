@@ -41,6 +41,8 @@
 
 	//Mobile Nav Hide Show
 	if($('.mobile-menu').length){
+
+		console.log()
 		
 		$('.mobile-menu .menu-box').mCustomScrollbar();
 		

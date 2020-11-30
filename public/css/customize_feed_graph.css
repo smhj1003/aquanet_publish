@@ -42,11 +42,11 @@
 }
 
 #product-table td .left{
-  transform: translateX(-10.5%);
+  transform: translateX(-15.5%);
 }
 
 #product-table td .right{
-  transform: translateX(10.5%);
+  transform: translateX(15.5%);
 }
 
 
@@ -62,11 +62,11 @@
 @media only screen and (max-width: 1199px){
  
   #product-table td .left{
-    transform: translateX(-5%);
+    transform: translateX(-17%);
   }
   
   #product-table td .right{
-    transform: translateX(5%);
+    transform: translateX(17%);
   }
   
   #product-table{
@@ -118,10 +118,11 @@
   }
   #product-table td div p{
       font-size: 13px;
+      line-height: 18px;
     }
   #product-table .twoline{
     margin: 10% 0% 10% 10%;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 15% 0% 15%;
   }
  
 }

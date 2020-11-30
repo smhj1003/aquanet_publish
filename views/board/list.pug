@@ -2,25 +2,31 @@ extends ../layout/default.pug
 block content
 	.container
 		.my-2
-			h1= '아쿠아넷 공지/뉴스'
-			if user && user.id=='aquaadmin'
+			.service-details
+				.sec-title
+					.title-icon
+						span.icon
+							img(src='../images/icons/blue-tang-fish.png' alt='' title='')
+					.subtitle notice
+					h2 공지/뉴스
+				.upper-content
+			if user && user.id
 			hr
 			button.btn.btn-primary(onclick="location.href='/board/write';") 글작성
+	.container.my-5.justify-content-center
 		table.table.text-center
-			thead.theadline
-				tr
-					th 제목
-					th 작성자
-					th 내용
-					th 작성일
-			tbody.tbodyline
+			thead
+					tr
+						th 제목
+						th.d-none.d-sm-block 작성자
+						th 작성일
+			tbody
 				each v in lists
 					tr
-						td.text-left
+						td.text-center
 							a(href=`/board/view/${v.id}`)= v.title
 								if v.savefile
 									i.fa.fa-file.ml-2
-						td= '관리자'
-						td.text-left= v.content
+						td.d-none.d-sm-block= '관리자'
 						td= v.wdate
 		include ../inc/pager.pug

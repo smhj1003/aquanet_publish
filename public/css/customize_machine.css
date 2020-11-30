@@ -13,7 +13,7 @@ thead th:first-child, tbody th{ }
 .table thead tr th:first-child,.table tbody tr th{ -padding: .5rem;}
 
 .services-page .content-side .main-image{
-     margin-top: 8%;
+     margin-top: 14%;
 }
 @media only screen and (max-width: 1899px){}
 @media only screen and (max-width: 1499px){}

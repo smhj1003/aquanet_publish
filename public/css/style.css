@@ -4335,7 +4335,7 @@ img.lazy-image.loaded{
 
 .project-block .hover-box h5{
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: capitalize;
 	margin: 0;
 }
@@ -4348,6 +4348,7 @@ img.lazy-image.loaded{
 	position: relative;
 	margin-bottom: 12px;
 	text-transform: capitalize;
+	color: #dadada;
 }
 
 .project-block .link-box{
@@ -4622,8 +4623,13 @@ img.lazy-image.loaded{
 	font-size: 42px;
 	line-height: 80px;
 	border-radius: 50%;
+	
 }
 
+.process-block .icon-box span::before{
+	position: relative;
+	left: 5px;
+}
 .process-block .step{
 	position: relative;
 	font-size: 14px;
@@ -4716,7 +4722,6 @@ img.lazy-image.loaded{
 	position: relative;
 	width: 220px;
 	height: 220px;
-	background: #0c2f48;
 	background: rgba(0,0,0,0.1);
 	margin: 0 auto;
 	border-radius: 50%;
@@ -4757,7 +4762,7 @@ img.lazy-image.loaded{
 }
 
 .team-block:hover .image-box img{
-	opacity: 0.15;
+	-opacity: 0.15;
 }
 
 .team-block .lower{
@@ -5300,6 +5305,14 @@ img.lazy-image.loaded{
 	text-transform: capitalize;
 	line-height: 1.5em;
 	margin-bottom: 12px;
+	
+}
+
+.news-block h5 h5{
+	color: #fff;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
 }
 
 .news-block.alternate h5{
@@ -14288,7 +14301,7 @@ img.lazy-image.loaded{
 .service-details .main-image{
 	position: relative;
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 65px;
 }
 
 .service-details .main-image img{
@@ -14411,7 +14424,7 @@ img.lazy-image.loaded{
 .service-details .process{
 	position: relative;
 	display: block;
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 .service-details .process .row{
