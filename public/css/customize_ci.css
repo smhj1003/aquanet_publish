@@ -14,6 +14,7 @@
   width: 230px;
   height: 130px;
   margin: 5% 0;
+  position: relative;
 }
 .color_1{
   background-color: #1f8fff;
@@ -26,6 +27,22 @@
 }
 .color_4{
   background-color: #000000;
+}
+.color_text {
+  border: 1px solid #d8d8d8;
+  padding: 15px 0 0 0;
+  width: 280px;
+  height: 130px;
+  position: absolute;
+  left: 100%;
+}
+.color_text span.left{
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.color_text span{
+  height: 30px;
+  line-height: 30px;
 }
 
 .ci .logo_type{
@@ -62,5 +79,11 @@
   }
   .ci .logo_type .type_box h5{
     text-align: center;
+  }
+  .color_box{
+    width: 100px;
+    height: 130px;
+    margin: 5% 0;
+    position: relative;
   }
 }

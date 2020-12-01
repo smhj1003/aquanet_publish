@@ -4628,7 +4628,9 @@ img.lazy-image.loaded{
 
 .process-block .icon-box span::before{
 	position: relative;
-	left: 5px;
+	left: 4px;
+	top: -2px;
+	font-size: 38px ;
 }
 .process-block .step{
 	position: relative;

@@ -1,7 +1,7 @@
 extends ../layout/default.pug
 block content
 	.container
-		.my-2
+		.my-5
 			.service-details
 				.sec-title
 					.title-icon
@@ -13,6 +13,8 @@ block content
 			if user && user.id
 			hr
 			button.btn.btn-primary(onclick="location.href='/board/write';") 글작성
+			if user && user.id
+				a.btn.btn-danger.text-white.navi(href='/user/logout') LOGOUT
 	.container.my-5.justify-content-center
 		table.table.text-center
 			thead

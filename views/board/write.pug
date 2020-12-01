@@ -3,7 +3,6 @@ block content
 	.container
 		.jumbotron
 			h2= title
-			button.btn.btn-primary(onclick="location.href='/';") 로그인
 		div.form-wrap
 			form(method="post" name="boardForm" action=`${list ? '/board/saveUpdate' : '/board/save'}` enctype="multipart/form-data")
 				input(type="hidden" name="id" value=`${list && list.id ? list.id : ''}`)
