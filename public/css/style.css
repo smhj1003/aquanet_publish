@@ -2506,7 +2506,7 @@ body.search-visible{
 	font-size:16px;
 	line-height:32px;
 	color:#ffffff;
-	background:rgba(255,255,255,0.10);
+	-background:rgba(255,255,255,0.10);
 	cursor:pointer;
 	border-radius:2px;
 	-webkit-transition: all 500ms ease;

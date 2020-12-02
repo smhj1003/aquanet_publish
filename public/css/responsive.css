@@ -894,7 +894,9 @@
 		width: 100%;
 		text-align: center;
 	}
-
+	.main-footer .footer-bottom .copyright{
+		transform: translateY(-20%);
+	}
 	.main-footer .footer-bottom .bottom-links li{
 		float: none;
 		display: inline-block;
