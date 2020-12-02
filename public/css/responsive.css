@@ -738,7 +738,8 @@
 	}
 }
 
-@media only screen and (max-width: 991px){	
+@media only screen and (max-width: 991px){
+
 	.main-header .nav-outer .main-menu,
 	.sticky-header{
 		display: none !important;
@@ -1079,6 +1080,8 @@
 		padding-top: 70px;
 	}
 
+
+
 }
 
 @media only screen and (max-width: 767px){
@@ -1197,7 +1200,7 @@
 
 	.service-details .process .block{
 		margin-bottom: 50px;
-		margin-bottom: 0px;
+		
 	}
 
 	.service-details .process{
@@ -1903,9 +1906,27 @@
 	.contact-section .text-column{
 		margin-bottom: 30px;
 	}
+
+	.widgets-section .column:nth-child(2),.widgets-section .column:nth-child(3){
+		display: none;
+	}
+	.main-header .header-upper .logo-box .logo img{
+		position: relative;
+		display: inline-block;
+		max-width: 100%;
+		width: 40%;
+		max-height: 80px;
+		z-index:1;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+
 }
 
 @media only screen and (max-width: 479px) {
+
+
 	.banner-carousel .content-box h1{
 		font-size: 20px;
 	}
