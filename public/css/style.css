@@ -143,7 +143,17 @@ p{
 	font-weight: 400;
 	margin: 0 0;
 }
+.text-main > p:nth-child(1),.text-main > p:nth-child(2),.text-main > p:nth-child(3) {
+	margin-bottom: 0;
+}/*상위 margin-bottom이 그대로 적용되어 수정 21-02-17 11:51 전오상 */
 
+.text-about > p:nth-child(5) {
+	padding: 5px 0px;
+}
+.text-about > p:nth-child(6) {
+	margin-bottom: 0px;
+}
+/*글 간격 조절 21-02-17 13:48전오상*/
 .clearfix::after{display:block;clear:both;content:""}
 
 ::-webkit-input-placeholder{color: inherit;}
@@ -621,6 +631,9 @@ img{
 	display:inline-block;
 	max-width:100%;
 	height:auto;
+}
+.vision-img {
+	margin-right: 5px;
 }
 
 .dropdown-toggle::after{
@@ -2851,7 +2864,9 @@ img.lazy-image.loaded{
 	-o-transition: all 7000ms linear;
 	transition: all 7000ms linear;
 }
-
+.content-box {
+	margin-left: 10%;/*재수정 21-02-17 11:07 전오상*/
+}
 .banner-carousel .content-box{
 	position: relative;
 	display: table;
@@ -2986,7 +3001,7 @@ img.lazy-image.loaded{
 	line-height: 1.6em;
 	color: #ffffff;
 	font-weight: 500;
-	max-width: 700px;
+	/* max-width: 700px; *//*21-02-17 11:27 전오상*/
 	opacity: 0;
 	-webkit-transform: translateY(50px);
 	-moz-transform: translateY(50px);
@@ -3267,7 +3282,10 @@ img.lazy-image.loaded{
 	padding: 100px 0px 50px;
 	background: #ffffff;
 }
-
+.text-column {
+	padding-left: 10px;
+	padding-right: 10px;
+}/*21-02-17 11:43 전오상 텍스트 간격 수정*/
 .about-section .text-column{
 	position: relative;
 	order: 12;
@@ -6218,7 +6236,9 @@ img.lazy-image.loaded{
 .main-footer .footer-bottom{
 	position:relative;
 	background: #0e1d1e;
+	height: 100px;
 }
+/*footer높이 수정 21-02-17 13:27전오상*/
 
 .footer-two .footer-bottom{
 	border-top: 1px solid rgba(255,255,255,0.20);
@@ -6228,8 +6248,8 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	text-align: center;
-	padding: 50px 0px 20px;
-	line-height: 30px;
+	padding: 40px 0px 20px;
+	/*line-height: 30px;*/ /*추가수정 13:29전오상*/
 }
 
 .footer-two .footer-bottom .inner{
@@ -8875,17 +8895,18 @@ img.lazy-image.loaded{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #1ba6ff;
+	/**background: #1ba6ff;
 	background: -webkit-linear-gradient(top,rgba(0,0,0,0),#1ba6ff);
 	background: -ms-linear-gradient(top,rgba(0,0,0,0),#1ba6ff);
 	background: -moz-linear-gradient(top,rgba(0,0,0,0),#1ba6ff);
 	opacity: 0.40;
+	21-02-17 16:54 전오상
+	**/
 }
 
 .page-banner h1{
 	position:relative;
-	font-size:48px;
-	font-size: 32px;
+	font-size: 43px;
 	color:#ffffff;
 	line-height: 1.35em;
 	font-weight: 500;
@@ -9608,7 +9629,8 @@ img.lazy-image.loaded{
 }
 
 .history .history-box .history-block .inner:hover .date .date-inner span[class="even"]{
-	background: #ff3668;
+	/*background: #ff3668;*/
+	background: #1ba6ff;
 	color: #ffffff;
 }
 
@@ -11408,6 +11430,7 @@ img.lazy-image.loaded{
 	max-width: 600px;
 	padding-right: 40px;
 	padding-left: 15px;
+	margin-right: 45px;
 }
 
 .contact-three .top-icon{
@@ -11664,7 +11687,7 @@ img.lazy-image.loaded{
 
 .sidebar-page-container{
 	position:relative;
-	padding: 100px 0px 50px;
+	padding: 100px 0px 90px;
 }
 
 .sidebar-page-container.blog-single{
@@ -14258,7 +14281,7 @@ img.lazy-image.loaded{
 }
 
 .service-details .sec-title{
-	margin-bottom: 40px;
+	margin-bottom: 6%;
 }
 
 .service-details .big-text{
@@ -14281,15 +14304,17 @@ img.lazy-image.loaded{
 .service-details h4{
 	font-size: 20px;
 	font-size: 18px;
-	
 	color: #000;
 	font-weight: 700;
 	line-height: 1.5em;
-	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#ph-name{
+	margin-top: 0px;
 }
 
 .service-details .text{
-	padding-bottom: 20px;
+	padding-bottom: 4%;
 	font-size: 16px;
 	word-break: keep-all;
 }

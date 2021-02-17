@@ -144,9 +144,13 @@
 	.banner-carousel .content-box .text{
 		font-size: 16px;
 	}
+	.content-box{
+		
+	}
 
 	.banner-carousel .content-box{
 		height: 620px;
+		max-width: 100%;
 	}
 
 	.about-section .image-column .inner{
@@ -851,7 +855,9 @@
 	.contact-section .image-column{
 		display: none;
 	}
-
+	.content-box {
+		margin-left: 0; /*21-02-17 11:08 모바일 측면 수정 전오상*/
+	}
 	.banner-carousel .content-box .inner{
 		max-width: 100%;
 		text-align: center;

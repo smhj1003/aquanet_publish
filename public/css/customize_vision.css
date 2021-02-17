@@ -14,7 +14,7 @@
   
 }
 .text01{
-  margin-top: 8%;
+  margin-top: 6%;
   margin-bottom: 7%;
   font-weight: 500;
 }
@@ -38,8 +38,10 @@
   margin: 6% 0;
 }
 .text_area .text01 span{
-  font-size: 42px;
-}
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}/*21-02-17 13:55 글자 간격수정 전오상*/
 .text_area .text01 span:nth-child(2){
 
   color: #1f8fff;

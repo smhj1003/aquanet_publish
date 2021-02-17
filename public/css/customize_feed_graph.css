@@ -1,7 +1,7 @@
 #product-table {
-  width: 80%;
-  
+  width: 70%;
   margin-top: 2%;
+  margin-left: 3%;
 }
 
 #product-table td{
@@ -15,7 +15,7 @@
   
 }
 #product-table td div {
-  border: solid 5px #e2e2e1;
+  border: solid 2px #e2e2e1;
   border-radius: 50%;
   margin: 10% 0% 10% 10%;
   padding: 10% 15% 10% 15%;
