@@ -1,3 +1,4 @@
+
 extends ../layout/default.pug
 block content
 	.container
@@ -24,7 +25,7 @@ block content
 				li.d-flex.list.border-bottom
 					div(style="flex: 30% 0 0;").p-2.bg-light 첨부파일
 					div.p-2
-						a(href=`/board/download?file=${list.savefile}&name=${list.realfile}`)= list.realfile
+						a(hWref=`/board/download?file=${list.savefile}&name=${list.realfile}`)= list.realfile
 			if list.imgSrc
 				li.d-flex.list.border-bottom
 					div(style="flex: 30% 0 0;").p-2.bg-light 첨부이미지
