@@ -733,6 +733,12 @@
 	}
 }
 
+@media only screen and (max-width: 990px){
+	.contact-three .text-col .inner {
+		margin-right: 0px;
+	}/*모바일용 치우침 수정 21-02-18 13:24전오상*/
+}
+
 @media only screen and (min-width: 768px){
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
@@ -1087,7 +1093,19 @@
 	.about-two{
 		padding-top: 70px;
 	}
-
+	.banner-carousel .content-box .subtitle {
+		font-size: 30px;
+	}
+	.banner-carousel .content-box h1 {
+		font-size: 65px;
+		font-weight: 600;
+	}
+	#mnone{
+		padding-top: 5%;
+		display: inline-block;
+		font-weight: 300;
+	}
+	
 
 
 }
@@ -1121,9 +1139,9 @@
 		float: none;
 	}
 
-	.banner-carousel .content-box h1{
+	/*.banner-carousel .content-box h1{
 		font-size: 24px;
-	}
+	}*/
 
 	.about-section .image-column .image{
 		width: 100%;
@@ -1362,12 +1380,19 @@
 		margin-bottom: 10px;
 	}
 }
-
+@media only screen and (max-width: 620px){
+	#mnone{
+		font-size:14px;
+	}
+}
 @media only screen and (max-width: 599px){
 	.main-header .other-links,
 	.main-header .header-upper-two .help,
 	.header-style-two .header-lower .social-links{
 		display: none;
+	}
+	#mnone {
+		display:none;
 	}
 
 	.main-header .header-upper .logo-box,
@@ -1936,7 +1961,10 @@
 
 
 	.banner-carousel .content-box h1{
-		font-size: 20px;
+		font-size: 35px;
+	}
+	.banner-carousel .content-box .subtitle {
+		font-size: 16px;
 	}
 
 	.banner-carousel .content-box .link-box .theme-btn,

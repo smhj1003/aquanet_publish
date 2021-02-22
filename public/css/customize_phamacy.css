@@ -1,6 +1,14 @@
-th,td{ text-align: center; }
+th,td{ text-align: center;
+    color:#222;
+}
 .table td, .table th{ padding: 1.2rem;}
 .table thead th{ border-bottom: 1px;}
+.table th {
+    font-weight: normal;
+}
+.table td {
+    font-weight: 300;
+}
 thead th,tbody td,tbody th{ border-right: 1px solid #dee2e6;}
 thead th:last-child ,tbody th:last-child,tbody td:last-child{ border-right: none;}
 
@@ -8,18 +16,55 @@ tbody tr:last-child{ border-bottom: 1px solid #dee2e6;}
 
 thead tr{ background-color: #f2f2f2;}
 thead th:first-child, tbody th{ }
-
-@media only screen and (max-width: 991px){
-  
+@media only screen and (max-width: 1155px){
+    .feature-block{
+        overflow-x: auto;
+    }
+    .table {
+        width: 120%;
+    }
+}
+@media only screen and (max-width: 1020px){
+    .service-details h4 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .table {
+        width: 100%;
+    }
   
 }
-@media only screen and (max-width: 767px){
- 
-  
+@media only screen and (max-width: 769px){
+    .table {
+        width: 120%;
+    }
+    .process {
+        overflow-x: auto;
+    }
+    .row {
+        flex-wrap:nowrap;
+    }
+    .ph-flex > div{
+        flex:1;
+    }
+
+}
+@media only screen and (max-width: 646px){
+    .table {
+        width: 150%;
+    }
 }
 
-@media only screen and (max-width: 599px){
-  
+@media only screen and (max-width: 577px){
+    .sidebar-side{
+        display: none;
+    }
+}
+@media only screen and (max-width: 524px){
+    .table {
+        width: 170%;
+    }
 }
 @media only screen and (max-width: 479px) {
 
@@ -32,4 +77,4 @@ thead th:first-child, tbody th{ }
         
     }
  
-}
+}/*21-02-19 10:46 전오상*/

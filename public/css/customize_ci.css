@@ -35,14 +35,14 @@
 .color_text {
   border: 1px solid #d8d8d8;
   padding: 20px 0 0 0;
-  width: 200%;
+  width: 24vw;/*21-02-18 13:36전오상 길이수정 기존값 200%*/
   height: 130px;
   position: absolute;
   left: 100%;
 }
 .color_text span.left{
-  margin-right: 30px;
-  margin-left: 20px;
+  margin-right: 8%;/*21-02-18 13:43전오상 퍼센트로 변경*/
+  margin-left: 5%;
   font-weight: bold;
 }
 .color_text span{
@@ -68,13 +68,68 @@
   margin: 5% 0 5%;
   text-align:center;
 }/*가운데정렬 21-02-17 14:55전오상*/
+@media(max-width: 3100px){
+  .color_text {
+    width: 420px;
+  }
+}
+@media(max-width: 1550px){
+  .color_text {
+    width: 400px;
+  }
+}
+@media(max-width: 1300px){
+  .color_text {
+    width: 24vw;
+  }
+}
+
+@media(max-width: 1100px){
+  .color_text span {
+    font-size: 1.5vw;
+  }
+}/*사이즈수정 21-02-18 13:48전오상*/
 
 @media(max-width: 991px){
 
   .ci .inner h5{
     font-size: 16px;
   }
-}
+  .ci-box:nth-child(1) {
+    padding-left: 1.5%
+  }
+  .ci-box {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .color_box {
+    width: 23vw;
+  }
+  .color_text {
+    width: 24vw;
+  }
+ 
+}/*사이즈수정 21-02-18 14:33전오상*/
+
+@media(max-width: 768px){
+  .ci-box:nth-child(1) {
+    padding-left: 15px;
+  }
+  .ci-box {
+    padding-left: 15px;
+  }
+  .color_box {
+    width: 30vw;
+  }
+  .color_text {
+    width: 62vw;
+  }
+  .color_text span {
+    font-size: 2vw;
+  }
+}/*사이즈수정 21-02-18 14:33전오상*/
+
+
 @media(max-width: 479px){
 
   .ci .inner h4{
@@ -89,7 +144,7 @@
   .color_box{
     width: 100px;
     height: 130px;
-    margin: 5% 0;
+    /*margin: 5% 0;*/
     position: relative;
   }
 }

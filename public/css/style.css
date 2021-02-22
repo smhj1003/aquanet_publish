@@ -16484,3 +16484,118 @@ img.lazy-image.loaded{
  .flaticon-menu-1::before{
 	 
  }
+ @media only screen and (max-width: 20000px) {
+	.logo2 {
+		display:none;
+	}
+}
+ @media only screen and (max-width: 991px) {
+	.main-header{
+		position: fixed;
+		top: -1px;
+	}
+	.banner-carousel .slide-item {
+		height:100vh;
+	}
+	.page-banner {
+		margin-top: 164px;
+	}
+	.main-header .header-upper {
+		display:none;
+	}
+	.main-header .nav-outer {
+		float:right;
+	}
+	.main-header .header-lower {
+		background-color: rgba(0,0,0,0);
+	}
+	/* .auto-container .text {
+		display:none;
+	} */
+	.logo2 {
+		display:inline-block;
+	}
+	.logo2 > a > img{
+		position: relative;
+		top: 37px;
+		left: 3%;
+		width: 30%;
+	}/*21-02-22 11:28 로고수정 전오상*/
+	.nav-outer .mobile-nav-toggler {
+		font-size: 45px;
+		line-height: 20px;
+		padding-right: 40%;
+	}
+	.banner-carousel .content-box .content {
+		padding: 40% 0px;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 30%;
+	}
+	.banner-carousel .content-box .link-box .theme-btn {
+		min-width: 280px;
+	}
+	.btn-style-one .btn-title {
+		font-size: 20px;
+	}
+	.btn-style-two .btn-title {
+		font-size: 20px;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 3%;
+	}
+	
+ }
+
+ @media only screen and (max-width: 760px) {
+	#GridId {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.fishmom_model .service-details .process .block .inner:after {
+		border-right: 0px solid #000;
+	}
+	#GridId .inner {
+		padding: 0;
+	}/*21-02-18 16:48 전오상*/
+ }
+
+ @media only screen and (max-width: 599px) {
+	 .page-banner{
+		 margin-top: 140px;
+	 }
+	 .main-header .header-upper {
+		 height: 80px;
+	 }
+	 .header-lower {
+		 height: 60px;
+	 }
+ }
+ @media only screen and (max-width: 376px) {
+	.banner-carousel .content-box .content {
+		padding: 75% 0px;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 70%;
+	}
+	.logo2 > a > img{
+		position: absolute;
+		top:40%;
+		left: 3%;
+		width: 35%;
+	}
+	.banner-carousel .content-box .link-box .theme-btn {
+		min-width: 200px;
+	}
+	.btn-style-one .btn-title {
+		font-size: 15px;
+	}
+	.btn-style-two .btn-title {
+		font-size: 15px;
+	}
+	.nav-outer .mobile-nav-toggler {
+		font-size: 25px;
+		line-height: 0px;
+		padding-right: 0px;
+	}
+ }

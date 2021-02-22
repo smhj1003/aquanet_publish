@@ -1,14 +1,23 @@
 th,td{ text-align: center;  
        }
 .table td, .table th{ -padding: 1rem;}
-.table thead th{ border-bottom: 1px;}
-tbody th{ font-size: 16px; }
+.table thead th{ border-bottom: 1px;
+     color:#222;
+     font-weight:normal;
+}
+tbody th{ 
+     font-size: 16px; 
+     font-weight:normal;
+}
+tbody td {
+     font-weight: 300;
+}
 thead th,tbody td,tbody th{ border-right: 1px solid #dee2e6;}
 thead th:last-child ,tbody th:last-child,tbody td:last-child{ border-right: none;}
 
 tbody tr:last-child{ border-bottom: 1px solid #dee2e6;}
 
-thead tr{ background-color: #f2f2f2;}
+thead tr{ background-color: #F5F5F5;}
 thead th:first-child, tbody th{ }
 .table thead tr th:first-child,.table tbody tr th{ -padding: .5rem;}
 
@@ -22,16 +31,59 @@ thead th:first-child, tbody th{ }
  
        
 }
-@media only screen and (max-width: 1199px){
- 
+@media only screen and (max-width: 1250px){
+     .fishmom_desc {
+          width:100%;
+          overflow-x: auto;
+     }
+     .table {
+          width: 120%;
+     }
   
+}
+@media only screen and (max-width: 1050px){
+     .table {
+          width: 150%;
+     }
+
 }
 
 /* @media only screen and (max-width: 1023px){
  
 } */
 @media only screen and (max-width: 991px){
- 
+     .table th, .table td {
+          font-size: 0.8rem;
+          padding-top: .7rem;
+          padding-bottom: .7rem;
+          width: 0%;
+          font-weight: normal;
+     }
+     .table thead th {
+          border-top: 2px solid #000;
+          vertical-align: center;
+          font-weight: normal;
+     }
+     .table td {
+          font-weight: 300;
+     }
+     .table-wrap {
+          width:100%;
+          overflow-x: auto;
+     }
+     .fishmom_desc .table {
+          width: 120%;
+     }
+     .table {
+          width: 200%;
+     }
+     .table th {
+          width: 90px;
+     }
+     .table > thead th {
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+     }
 
 }
 
@@ -40,9 +92,16 @@ thead th:first-child, tbody th{ }
  
   
 }
+@media only screen and (max-width: 651px){
+     .fishmom_desc .table {
+          width: 150%;
+     }
+}
 
-@media only screen and (max-width: 599px){
-  
+@media only screen and (max-width: 526px){
+     .fishmom_desc .table {
+          width: 200%;
+     }
 }
 @media only screen and (max-width: 479px) {
 
@@ -50,17 +109,16 @@ thead th:first-child, tbody th{ }
        width: 100%;
        overflow-x: auto;
   }
-  .fishmom_desc .table{
-       width: 200%;
-  }
+  
   .fishmom{
-
      width: 110%;
   }
 
 }
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 400px) {
+     .fishmom_desc .table{
+          width: 250%;
+     }
  
-}
+}/*넓이 수정 21-02-19 10:37전오상*/

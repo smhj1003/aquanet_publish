@@ -18,11 +18,12 @@
   border: solid 2px #e2e2e1;
   border-radius: 50%;
   margin: 10% 0% 10% 10%;
-  padding: 10% 15% 10% 15%;
-  height: auto;
-  width: 100%;
+  padding: 0% 15% 0% 15%;
+  height: 190px;
+  width: 190px;
   background: #fff;
-}
+  padding-top: 10%;
+}/*width와 height값 수정 height값이 auto라 찌그러짐 수정 21-02-18 14:33전오상*/
 #product-table td div p {
   
   margin: 50% 0%;
@@ -100,12 +101,25 @@
   }
 }
 
+@media only screen and (max-width: 650px){
+  #product-table td div {
+    width: 160px;
+    height: 160px;
+  }
+}
+
 @media only screen and (max-width: 599px){
   .text50 h2{
     font-size: 20px;
     width: 342px;
 
     }
+}
+@media only screen and (max-width: 550px){
+  #product-table td div {
+    width: 130px;
+    height: 130px;
+  }
 }
 @media only screen and (max-width: 479px) {
 
@@ -114,7 +128,7 @@
     width: 342px;
   }
   #product-table{
-    transform: translateX(8%);
+    /*transform: translateX(8%);*/
   }
   #product-table td div p{
       font-size: 13px;
@@ -122,10 +136,31 @@
     }
   #product-table .twoline{
     margin: 10% 0% 10% 10%;
-    padding: 0% 15% 0% 15%;
+    
+  }
+  #product-table td div p {
+    font-size: 1vw;
   }
  
+ 
 }
+@media only screen and (max-width: 450px) {
+  #product-table td div {
+    width: 115px;
+    height: 115px;
+    padding: 5% 12% 0% 12%;
+  }
+
+}/*21-02-18 15:12 그래프 사이즈 수정 전오상*/
+
+@media only screen and (max-width: 400px) {
+  #product-table td div {
+    width: 105px;
+    height: 105px;
+    padding: 5% 10% 0% 10%;
+  }
+}
+
 
 @media only screen and (max-width: 320px) {
 
