@@ -16517,7 +16517,7 @@ img.lazy-image.loaded{
 	}
 	.logo2 > a > img{
 		position: relative;
-		top: 37px;
+		top: 35px;
 		left: 3%;
 		width: 30%;
 	}/*21-02-22 11:28 로고수정 전오상*/
@@ -16543,6 +16543,9 @@ img.lazy-image.loaded{
 	}
 	.banner-carousel .content-box .link-box {
 		padding-top: 3%;
+	}
+	.nav-outer .mobile-nav-toggler {
+		margin: 0px 0px 9px 0px
 	}
 	
  }

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 991px) {
+.main-header {
+    height: 90px;
+}
+.page-banner {
+    margin-top: 0;
+    height: 45vw;
+}
+.page-banner .inner-container {
+    padding-top: 20%;
+}
+.nav-outer .mobile-nav-toggler {
+    margin: -5px 0px 9px 0px;
+}
+.page-banner .banner-inner {
+    margin-top: -2px;
+}
+.main-header .nav-outer {
+    float: right;
+    width: 100%;
+}
+.logo2 {
+    width:100%;
+}
+@media only screen and (max-width: 400px){
+    .page-banner h1 {
+        font-size: 21px;
+    }
+}
+}
