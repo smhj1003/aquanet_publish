@@ -192,34 +192,17 @@
     <div class="subtitle"></div>
     <div class="container">
       <div class="jumbotron">
-        <h2>게시글 작성</h2>
+        <h2>공지사항</h2>
       </div>
-      <div class="form-wrap">
-        <form method="post" name="boardForm" action="/board/save" enctype="multipart/form-data">
-          <input type="hidden" name="id" value="">
-          <input class="form-control" tpye="text" name="title" placeholder="제목을 입력하세요." value="">
-          <div>
-            <input class="form-control-file" name="upfile" type="file">
-          </div>
-          <textarea name="content" id="editor"></textarea>
-          <hr>
-          <button class="btn btn-primary">저장</button>
-          <!-- <button class="btn btn-danger" type="reset">다시작성</button> -->
-          <button class="btn btn-warning" onclick="location.href='/board';">공지사항가기</button>
-        </form>
-      </div>
-    </div>
+      <div class="ec-base-table typeWrite ">
+          <li class="title">
+						<p class="subject">미사용 적립금 소멸 예정 안내</p>
+						<div class="inline">
+							<span class="writer">마케팅담당자</span>
+							<span class="displaynone">(ip:)</span> 
+							<span class="date">2021-01-25</span>
+        </div>
     
-    <script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ), {
-            // 제거 하고싶은 플러그인 (배열)
-             removePlugins: [ 'ImageUpload' ]
-        } )
-        .catch( error => {
-            console.error( error );
-        } );
-    </script>
 
    
     <!-- Main Footer -->
