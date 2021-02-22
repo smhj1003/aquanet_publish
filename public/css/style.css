@@ -16547,6 +16547,12 @@ img.lazy-image.loaded{
 	.nav-outer .mobile-nav-toggler {
 		margin: 0px 0px 9px 0px
 	}
+	.quote-box {
+		display:none;
+	}
+	.buttons {
+		display:none;
+	}
 	
  }
 
@@ -16583,7 +16589,7 @@ img.lazy-image.loaded{
 	}
 	.logo2 > a > img{
 		position: absolute;
-		top:40%;
+		top: 50%;
 		left: 3%;
 		width: 35%;
 	}
