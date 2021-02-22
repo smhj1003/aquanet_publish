@@ -20,11 +20,77 @@
     width: 100%;
 }
 .logo2 {
-    width:100%;
+    width: 100%;
+}
+/*.why-us-three {
+    display: none;
+}*/
+.footer-bottom {
+    display: none;
+}
+.tab-buttons {
+    display:none;
+}
+.upper-box {
+    padding-bottom:5%;
+}
+.service-tabs .buttons {
+    margin-bottom: -55px;
+}
+.sec-title {
+    z-index: 9999;
+}
+.service-tabs .tabs-content .s-title {
+padding-left: 0px;
+}
 }
 @media only screen and (max-width: 400px){
+    .main-header {
+        height: 60px;
+    }
     .page-banner h1 {
         font-size: 21px;
     }
-}
+    .ceoimg{
+        display:none;
+    }
+    #delM {
+        display:none;
+    }
+    .service-tabs .tabs-content .image-column {
+        padding-top:70px;
+    }
+    .service-tab .tab-content .image-layer {
+        margin-top:0;
+    }
+    .team-section {
+        padding: 70px 0px 40px;
+    }
+        .call-to-action .title-col h4 {
+        font-size: 21px;
+    }
+    .call-to-action{
+        padding:30px 0px 10px;
+    }
+    .call-to-action .title-col {
+        margin-bottom: 30px;
+    }
+    .nav-outer .mobile-nav-toggler {
+        margin: 5px 0px 9px 0px;
+    }
+    .text > p {
+        font-size: 13px;
+    }
+    #reM {
+        padding: 0px 0px 0px 0px;
+    }
+    #reMf{
+        padding-bottom: 20px;
+    }
+    .about-section {
+        padding: 70px 0 0px;
+    }
+    .why-us, .blog-section, .projects-two, .pricing-section {
+        padding: 20px 0px 40px;
+    }
 }
