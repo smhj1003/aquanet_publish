@@ -10,7 +10,7 @@
 		}
 	}
 
-	//Update Header Style and Scroll to Top
+	//Update Header Style and Scroll to To
 	function headerStyle() {
 		if($('.main-header').length){
 			var windowpos = $(window).scrollTop();

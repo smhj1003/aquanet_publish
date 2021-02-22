@@ -8,7 +8,19 @@ html(lang="ko")
 		link(rel="stylesheet" href=`/css/${css}.css`)
 		include ../inc/script.pug
 	body
+		.preloader
+		.icon
 		include ../inc/header.pug
 		block content
 		include ../inc/footer.pug
-		script(src=`/js/${js}.js`)
+		//- script(src=`/js/${js}.js`)
+		script(src=`../js/jquery.js`)
+		script(src=`../js/popper.min.js`)
+		script(src=`../js/bootstrap.min.js`)
+		script(src=`../js/jquery-ui.js`)
+		script(src=`../js/jquery.fancybox.js`)
+		script(src=`../js/validate.js`)
+		script(src=`../js/scrollbar.js`)
+		script(src=`../js/appear.js`)
+		script(src=`../js/wow.js`)
+		script(src=`../js/custom-script.js`)
