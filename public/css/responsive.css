@@ -766,6 +766,10 @@
 
 	.nav-outer .mobile-nav-toggler{
 		display: block !important;
+		padding-right:3%;
+	}
+	.page-banner {
+		margin-top: 70px;
 	}
 
 	.main-header .header-top .top-left,
