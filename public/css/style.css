@@ -16591,7 +16591,7 @@ img.lazy-image.loaded{
 		width: 35%;
 	}
 	.banner-carousel .content-box .link-box {
-		padding-top: 30%;
+		padding-top: 35%;
 	}
 	.nav-outer .mobile-nav-toggler {
 		font-size: 25px;
@@ -16602,6 +16602,9 @@ img.lazy-image.loaded{
 	.about-section .text-column .lower-box {
 		padding-top:0;
 		padding-bottom:40px;
+	}
+	.banner-carousel .content-box .content {
+		padding: 35% 0;
 	}
  }
  @media only screen and (max-width: 376px) {
