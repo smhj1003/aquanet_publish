@@ -97,9 +97,13 @@ header.main-header
           img(src='/images/logo3.png' alt='' title='')
 //span= `${user && user.username ? '['+user.username+']' : ''}`
 section.page-banner
-  .image-layer(style='background-image:url(../images/news.png);')
+  .image-layer(style="background-image:url(/images/news.png);")
+    //- img(src='../images/news.png' alt='' title='')
+  //- (style='background-image:url(..public/images/news.png);')
+  //- .image-layer(style='background-image:url(/news.png);')
   .banner-bottom-pattern
   .banner-inner
+    .image-layer(style='background-image:url(../images/news.png);')
     .auto-container
       .inner-container.clearfix
         h1 &#xC544;&#xCFE0;&#xC544;&#xB137;&#xC758; &#xB2E4;&#xC591;&#xD55C; &#xC18C;&#xC2DD;&#xB4E4;&#xC744; &#xC804;&#xD574;&#xB4DC;&#xB9BD;&#xB2C8;&#xB2E4;.
