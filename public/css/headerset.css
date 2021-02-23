@@ -44,15 +44,17 @@
 padding-left: 0px;
 }
 }
+@media only screen and (max-width: 500px){
+    .ceoimg{
+        display:none;
+    }
+}
 @media only screen and (max-width: 400px){
     .main-header {
         height: 60px;
     }
     .page-banner h1 {
         font-size: 21px;
-    }
-    .ceoimg{
-        display:none;
     }
     #delM {
         display:none;
