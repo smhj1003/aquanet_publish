@@ -121,6 +121,12 @@
     height: 130px;
   }
 }
+@media only screen and (max-width: 500px){
+  #product-table td div p {
+    margin:45% 0%;
+    font-size:17px;
+  }
+}
 @media only screen and (max-width: 479px) {
 
   .text50 h2{

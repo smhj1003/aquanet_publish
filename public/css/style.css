@@ -16580,6 +16580,23 @@ img.lazy-image.loaded{
 		 height: 60px;
 	 }
  }
+ @media only screen and (max-width: 500px) {
+	.logo2 > a > img{
+		position: absolute;
+		top: 50%;
+		left: 3%;
+		width: 35%;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 30%;
+	}
+	.nav-outer .mobile-nav-toggler {
+		font-size: 25px;
+		line-height: 0px;
+		padding-right: 0px;
+		margin: 20px 0px 9px 0px
+	}
+ }
  @media only screen and (max-width: 376px) {
 	.banner-carousel .content-box .content {
 		padding: 75% 0px;
@@ -16587,12 +16604,7 @@ img.lazy-image.loaded{
 	.banner-carousel .content-box .link-box {
 		padding-top: 30%;
 	}
-	.logo2 > a > img{
-		position: absolute;
-		top: 50%;
-		left: 3%;
-		width: 35%;
-	}
+	
 	.banner-carousel .content-box .link-box .theme-btn {
 		min-width: 200px;
 	}
@@ -16602,10 +16614,5 @@ img.lazy-image.loaded{
 	.btn-style-two .btn-title {
 		font-size: 15px;
 	}
-	.nav-outer .mobile-nav-toggler {
-		font-size: 25px;
-		line-height: 0px;
-		padding-right: 0px;
-		margin: 20px 0px 9px 0px
-	}
+	
  }
