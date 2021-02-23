@@ -44,12 +44,15 @@
 padding-left: 0px;
 }
 }
+
 @media only screen and (max-width: 500px){
+
+    .owl-nav {
+        display: none;
+    }
     .ceoimg{
         display:none;
     }
-}
-@media only screen and (max-width: 400px){
     .main-header {
         height: 60px;
     }
