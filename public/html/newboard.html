@@ -16,6 +16,14 @@
 <!-- Responsive Settings -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style>
+  /* .ck.ck-editor {
+    max-width: 500px;
+  } */
+  .ck-editor__editable {
+    min-height: 300px;
+  }
+</style>
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -201,7 +209,7 @@
           <div>
             <input class="form-control-file" name="upfile" type="file">
           </div>
-          <textarea name="content" id="editor"></textarea>
+            <textarea name="content" id="editor"></textarea>
           <hr>
           <button class="btn btn-primary">저장</button>
           <!-- <button class="btn btn-danger" type="reset">다시작성</button> -->
