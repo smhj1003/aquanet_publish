@@ -6,21 +6,26 @@ block content
 			h1= title
 			button.btn.btn-primary(onclick="location.href='/board';") 리스트로 돌아가기
 		ul.my-3(style="list-style: none; padding: 0;")
+			//- li.d-flex.list.border-bottom
+			//- 	div(style="flex: 30% 0 0;").p-2.bg-light 번호
+			//- 	div.p-2= list.id
 			li.d-flex.list.border-bottom
-				div(style="flex: 30% 0 0;").p-2.bg-light 번호
-				div.p-2= list.id
-			li.d-flex.list.border-bottom
-				div(style="flex: 30% 0 0;").p-2.bg-light 제목
-				div.p-2= list.title
-			li.d-flex.list.border-bottom
-				div(style="flex: 30% 0 0;").p-2.bg-light 작성자
+				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목
+				div.p2(style="font-size:30px;")=list.title
+					div
+					span.p-2(style="font-size:15px;")= '관리자'
+					span.p-2(style="font-size:15px;")= list.wdate
+					hr
+					div.p-2= list.content
+			//- li.d-flex.list.border-bottom
+				//- div(style="flex: 30% 0 0;").p-2.bg-light 작성자
 				div.p-2= '관리자'
-			li.d-flex.list.border-bottom
+			//- li.d-flex.list.border-bottom
 				div(style="flex: 30% 0 0;").p-2.bg-light 작성일
 				div.p-2= list.wdate
-			li.d-flex.list.border-bottom
-				div(style="flex: 30% 0 0;").p-2.bg-light 내용
-				div.p-2= list.content
+			//- li.d-flex.list.border-bottom
+			//- 	div(style="flex: 30% 0 0;").p-2.bg-light 내용
+			//- 	div.p-2= list.content
 			if list.savefile
 				li.d-flex.list.border-bottom
 					div(style="flex: 30% 0 0;").p-2.bg-light 첨부파일
