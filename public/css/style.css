@@ -16599,6 +16599,10 @@ img.lazy-image.loaded{
 		padding-right: 0px;
 		margin: 20px 0px 9px 0px
 	}
+	.about-section .text-column .lower-box {
+		padding-top:0;
+		padding-bottom:40px;
+	}
  }
  @media only screen and (max-width: 376px) {
 	.banner-carousel .content-box .content {

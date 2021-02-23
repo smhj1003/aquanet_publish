@@ -4,7 +4,7 @@
 }
 .page-banner {
     margin-top: 0;
-    height: 45vw;
+    height: 50vw;
 }
 .page-banner .inner-container {
     padding-top: 20%;
@@ -87,7 +87,7 @@ padding-left: 0px;
         margin: 5px 0px 9px 0px;
     }
     .text  p {
-        font-size: 14px;
+        font-size: 15px;
     }
     #reM {
         padding: 0px 0px 0px 0px;
@@ -107,5 +107,9 @@ padding-left: 0px;
     }
     .team-section{
         background:#fff;
+    }
+    .text-column {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
