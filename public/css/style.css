@@ -16484,6 +16484,10 @@ img.lazy-image.loaded{
  .flaticon-menu-1::before{
 	 
  }
+ /*공지뉴스*/
+ .new1 {
+	 border-bottom:0px solid #000;
+ }
  @media only screen and (max-width: 20000px) {
 	.logo2 {
 		display:none;
