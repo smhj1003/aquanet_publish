@@ -17,16 +17,16 @@ $(function() {
     })
     $("html, body").on('touchmove', function(e){
         var wheel = e.originalEvent.wheelDelta;
-        var He  = $('header').height();
-        var st = $(window).scrollTop();
+        var He  = $('.main-header').scrollTop();
+        var st = $(window).offset();
         // e.preventDefault();
         if(st > 0) {
             $(".main-header").css("background-color", "#0c2f48");
         }
-        if (st <= 35) {
+        if (He = 0) {
             $(".main-header").css("background", "rgba(0,0,0,0)");
         }
-        //console.log(st);
+        console.log(He);
     })
 
 })

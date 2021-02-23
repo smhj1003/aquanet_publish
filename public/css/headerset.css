@@ -25,6 +25,9 @@
 /*.why-us-three {
     display: none;
 }*/
+.pctxt{
+    display:none;
+}
 .footer-bottom {
     display: none;
 }
@@ -83,8 +86,8 @@ padding-left: 0px;
     .nav-outer .mobile-nav-toggler {
         margin: 5px 0px 9px 0px;
     }
-    .text > p {
-        font-size: 13px;
+    .text  p {
+        font-size: 14px;
     }
     #reM {
         padding: 0px 0px 0px 0px;
@@ -97,5 +100,12 @@ padding-left: 0px;
     }
     .why-us, .blog-section, .projects-two, .pricing-section {
         padding: 20px 0px 40px;
+    }
+    #reMh2 {
+        width:100%;
+        text-align: center;
+    }
+    .team-section{
+        background:#fff;
     }
 }

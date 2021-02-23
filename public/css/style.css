@@ -143,7 +143,7 @@ p{
 	font-weight: 400;
 	margin: 0 0;
 }
-.text-main > p:nth-child(1),.text-main > p:nth-child(2),.text-main > p:nth-child(3) {
+.text-main  p:nth-child(1),.text-main  p:nth-child(2),.text-main  p:nth-child(3) {
 	margin-bottom: 0;
 }/*상위 margin-bottom이 그대로 적용되어 수정 21-02-17 11:51 전오상 */
 
@@ -16486,6 +16486,9 @@ img.lazy-image.loaded{
  }
  @media only screen and (max-width: 20000px) {
 	.logo2 {
+		display:none;
+	}
+	.mtxt{
 		display:none;
 	}
 }
