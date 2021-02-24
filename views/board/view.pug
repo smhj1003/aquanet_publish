@@ -2,21 +2,31 @@
 extends ../layout/default.pug
 block content
 	.container
-		.jumbotron.my-2
-			h1= title
-			button.btn.btn-primary(onclick="location.href='/board';") 리스트로 돌아가기
+		.container.renews
+		.my-5
+			.service-details
+				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+				.sec-title
+					.title-icon
+						span.icon
+							img(src='../images/icons/blue-tang-fish.png' alt='' title='')
+					.subtitle notice
+					h2 공지/뉴스
+		//- .jumbotron.my-2
+		//- 	h1= title
+			//- button.btn.btn-primary(onclick="location.href='/board';") 리스트로 돌아가기 21-02-24전오상
 		ul.my-3(style="list-style: none; padding: 0;")
 			//- li.d-flex.list.border-bottom
 			//- 	div(style="flex: 30% 0 0;").p-2.bg-light 번호
 			//- 	div.p-2= list.id
 			li.d-flex.list.border-bottom
 				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목
-				div.p2(style="font-size:30px;")=list.title
+				div.p2(style="font-size:20px;")=list.title
 					div
-					span.p-2(style="font-size:15px;")= '관리자'
+					span.p-2(style="font-size:15px; padding: 0;")= '아쿠아넷 관리자'
 					span.p-2(style="font-size:15px;")= list.wdate
 					hr
-					div.p-2= list.content
+					div.p-2(style="font-size:15px;")= list.content
 			//- li.d-flex.list.border-bottom
 				//- div(style="flex: 30% 0 0;").p-2.bg-light 작성자
 				div.p-2= '관리자'
@@ -37,7 +47,7 @@ block content
 					div.p-2
 						img.mw-100(src=`${list.imgSrc}`)
 		.p-3.text-center
-			button.btn.btn-primary(onclick="location.href='/board';") 리스트
+			button.btn.btn-primary(onclick="location.href='/board';") 목록
 			if user && user.id
 				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글쓰기
 			if user && user.id && user.id == list.uid

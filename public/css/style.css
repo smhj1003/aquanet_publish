@@ -16515,6 +16515,7 @@ img.lazy-image.loaded{
  }
  .retable > tbody td:nth-child(1) {
 	 width: 70%;
+	 padding:1.1rem;
  }
  .retable > tbody td:nth-child(1) > a {
 	 text-align:left;
@@ -16523,8 +16524,6 @@ img.lazy-image.loaded{
  }
  .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
 	 color: #989898;
- }
- .retable > td, .retable th {
 	 padding:1.1rem;
  }
  /*21-02-24 전오상*/
