@@ -16552,6 +16552,18 @@ img.lazy-image.loaded{
  #newmy5 {
 	margin-bottom: 1rem!important;	 
  }
+ .p-3 .btn-primary {
+	 color:#000;
+	 background-color:#fff;
+	 border: 1px solid #000;
+	 border-radius: 0px;
+	 width:22%;
+	 height: 50px;
+ }
+ .p-3 {
+	 padding: 3rem!important;
+	 margin-bottom: 1rem;
+ }
  
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
