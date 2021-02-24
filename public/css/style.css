@@ -16504,7 +16504,7 @@ img.lazy-image.loaded{
 	 background-color: #fff;
  }
  .retable {
-	 font-size:13px;
+	 font-size:14px;
 	 font-family: 'Noto Sans KR';
  }
  .retable > thead {
@@ -16514,17 +16514,18 @@ img.lazy-image.loaded{
 	 border-bottom: 1px solid #dee2e6;
  }
  .retable > tbody td:nth-child(1) {
-	 width: 70%;
-	 padding:1.1rem;
+	 width: 65%;
+	 padding:1.2rem;
  }
  .retable > tbody td:nth-child(1) > a {
 	 text-align:left;
 	 float:left;
-	 margin-left:5%;
+	 margin-left:10%;
  }
  .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
 	 color: #989898;
 	 padding:1.1rem;
+	 padding-right:5%;
  }
 
  /*게시판 내부*/
