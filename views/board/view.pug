@@ -5,7 +5,6 @@ block content
 		.container.renews
 		.my-5
 			.service-details
-				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
 				.sec-title
 					.title-icon
 						span.icon
@@ -20,8 +19,9 @@ block content
 			//- 	div(style="flex: 30% 0 0;").p-2.bg-light 번호
 			//- 	div.p-2= list.id
 			li.d-flex.list.border-bottom
-				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목
-				div.p2(style="font-size:20px;")=list.title
+				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목 div.p2(style="font-size:20px;")=list.title
+				div.p2
+					span.p-2(style="font-size:20px;")=list.title
 					div
 					span.p-2(style="font-size:15px; padding: 0;")= '아쿠아넷 관리자'
 					span.p-2(style="font-size:15px;")= list.wdate

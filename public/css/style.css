@@ -16526,6 +16526,18 @@ img.lazy-image.loaded{
 	 color: #989898;
 	 padding:1.1rem;
  }
+
+ /*게시판 내부*/
+ .newmy > div{
+	 width:100%;
+ }
+ .newmy > li {
+	 border-top: 1px solid #dee2e6!important;
+ }
+ .newmy hr {
+	 width:100%;
+ }
+ 
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
 	.logo2 {
