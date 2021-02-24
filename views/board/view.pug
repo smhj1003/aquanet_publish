@@ -23,13 +23,13 @@ block content
 			li.d-flex.list.border-bottom
 				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목 div.p2(style="font-size:20px;")=list.title
 				div.p2
-					hr
+					hr#rhr
 					span.p-2(style="font-size:20px;")=list.title
 					div
 					span.p-2(style="font-size:13px; padding: 0;")= '아쿠아넷 관리자'
 					span.p-2(style="font-size:13px;")= list.wdate
-					hr
-					div.p-2.divp2(style="font-size:13px;")= list.content
+					hr#rhr
+					div.p-2.divp2(style="font-size:14px;")= list.content
 			//- li.d-flex.list.border-bottom
 				//- div(style="flex: 30% 0 0;").p-2.bg-light 작성자
 				div.p-2= '관리자'
@@ -49,7 +49,7 @@ block content
 					div(style="flex: 30% 0 0;").p-2.bg-light 첨부이미지
 					div.p-2
 						img.mw-100(src=`${list.imgSrc}`)
-		.p-3.text-center
+		.p-3#newbtn.text-center
 			button.btn.btn-primary(onclick="location.href='/board';") 목록
 			if user && user.id
 				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글쓰기
