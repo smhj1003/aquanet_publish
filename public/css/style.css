@@ -16537,6 +16537,11 @@ img.lazy-image.loaded{
  .newmy hr {
 	 width:100%;
  }
+ .newmy div div:nth-child(2) {
+	 word-break: break-all;
+	 overflow:auto;
+	 height:250px;
+ }
  
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {

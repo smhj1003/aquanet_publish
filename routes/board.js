@@ -25,7 +25,7 @@ router.get(['/', '/list', '/list/:page'], async (req, res, next) => {
 		});
 		pug.lists = rs[0];
 		pug.lists.forEach((v) => {
-			v.wdate = moment(v.wdate).format('YYYY년 MM월 DD일');
+			v.wdate = moment(v.wdate).format('YYYY-MM-DD');
 		});
 		res.render('./board/list.pug', pug);
 	}
@@ -64,7 +64,7 @@ router.get('/view/:id', async (req, res) => {
 		pug = {title: '게시글 보기', js: 'board', css: 'board'};
 		rs = await sqlGen('board', 'S', {where: ['id', req.params.id]});
 		pug.list = rs[0][0];
-		pug.list.wdate = moment(pug.list.wdate).format('YYYY-MM-DD HH:mm:ss');
+		pug.list.wdate = moment(pug.list.wdate).format('YYYY-MM-DD');
 		if(pug.list.savefile) {
 			if(imgExt.includes(extGen(pug.list.savefile))) {
 				pug.list.imgSrc = imgFolder(pug.list.savefile);
