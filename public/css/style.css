@@ -16540,6 +16540,10 @@ img.lazy-image.loaded{
  .p2 {
 	 width:100%;
  }
+ .p2 .p-2:nth-child(2), .p2 .p-2:nth-child(3) {
+	 font-family: 'Noto Sans KR';
+	 color: #898989;
+ }
  .divp2 {
 	 word-break: break-all;
 	 overflow:auto;
