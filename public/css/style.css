@@ -16506,10 +16506,10 @@ img.lazy-image.loaded{
  .retable {
 	 font-size:13px;
  }
- .retable > tbody td:first-child() {
+ .retable > tbody td:nth-child(1) {
 	 width: 70%;
  }
- .retable > tbody td:first-child() > a {
+ .retable > tbody td:nth-child(1) > a {
 	 text-align:left;
  }
  .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
