@@ -16531,16 +16531,23 @@ img.lazy-image.loaded{
  .newmy > div{
 	 width:100%;
  }
- .newmy > li {
+ /* .newmy > li {
 	 border-top: 1px solid #dee2e6!important;
- }
+ } */
  .newmy hr {
 	 width:100%;
  }
- .newmy div div:nth-child(2) {
+ .divp2 {
 	 word-break: break-all;
 	 overflow:auto;
 	 height:250px;
+	 width:100%;
+ }
+ .newsec {
+	 margin-bottom:0px;
+ }
+ .newmy5 {
+	margin-bottom: 1rem!important;	 
  }
  
  /*21-02-24 전오상*/

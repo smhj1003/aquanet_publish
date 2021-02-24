@@ -3,9 +3,9 @@ extends ../layout/default.pug
 block content
 	.container
 		.container.renews
-		.my-5
+		.my-5.newmy5
 			.service-details
-				.sec-title
+				.sec-title.newsec
 					.title-icon
 						span.icon
 							img(src='../images/icons/blue-tang-fish.png' alt='' title='')
@@ -21,12 +21,13 @@ block content
 			li.d-flex.list.border-bottom
 				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목 div.p2(style="font-size:20px;")=list.title
 				div.p2
+					hr
 					span.p-2(style="font-size:20px;")=list.title
 					div
-					span.p-2(style="font-size:15px; padding: 0;")= '아쿠아넷 관리자'
-					span.p-2(style="font-size:15px;")= list.wdate
+					span.p-2(style="font-size:13px; padding: 0;")= '아쿠아넷 관리자'
+					span.p-2(style="font-size:13px;")= list.wdate
 					hr
-					div.p-2(style="font-size:15px;")= list.content
+					div.p-2.divp2(style="font-size:15px;")= list.content
 			//- li.d-flex.list.border-bottom
 				//- div(style="flex: 30% 0 0;").p-2.bg-light 작성자
 				div.p-2= '관리자'
