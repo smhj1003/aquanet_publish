@@ -16488,6 +16488,34 @@ img.lazy-image.loaded{
  .new1 {
 	 border-bottom:0px solid #000;
  }
+ .renews hr {
+	display:none;
+ }
+ .renews .btn-primary {
+	 position: absolute;
+	 right:0;
+	 bottom:0;
+	 width:15%;
+	 z-index:9999;
+	 color:#000;
+	 font-size:16px;
+	 border:1px solid #000;
+	 border-radius:0;
+	 background-color: #000;
+ }
+ .retable {
+	 font-size:13px;
+ }
+ .retable > tbody td:first-child() {
+	 width: 70%;
+ }
+ .retable > tbody td:first-child() > a {
+	 text-align:left;
+ }
+ .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
+	 color: #c1c1c1;
+ }
+ /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
 	.logo2 {
 		display:none;

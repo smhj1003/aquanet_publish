@@ -1,9 +1,10 @@
 
 extends ../layout/default.pug
 block content
-	.container
+	.container.renews
 		.my-5
 			.service-details
+			button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
 				.sec-title
 					.title-icon
 						span.icon
@@ -13,16 +14,16 @@ block content
 				.upper-content
 			if user && user.id
 			hr
-			//- button.btn.btn-primary(onclick="location.href='/board/write';") 글작성
-			button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+			//- button.btn.btn-primary(onclick="location.href='/board/write';") 글작성 21-02-24 전오상
+			
 			if user && user.id
 				a.btn.btn-danger.text-white.navi(href='/user/logout') LOGOUT
 	.container.my-5.justify-content-center
-		table.table.text-center
+		table.table.text-center.retable
 			thead
 					tr
 						th 제목
-						th.d-none.d-sm-block 작성자
+						th.d-none.d-sm-block.new1 작성자
 						th 작성일
 			tbody
 				each v in lists
@@ -31,6 +32,6 @@ block content
 							a(href=`/board/view/${v.id}`)= v.title
 								if v.savefile
 									i.fa.fa-file.ml-2
-						td.d-none.d-sm-block= '관리자'
+						td.d-none.d-sm-block= '아쿠아넷 담당자'
 						td= v.wdate
 		include ../inc/pager.pug
