@@ -16537,16 +16537,19 @@ img.lazy-image.loaded{
  .newmy hr {
 	 width:100%;
  }
+ .p2 {
+	 width:100%;
+ }
  .divp2 {
 	 word-break: break-all;
 	 overflow:auto;
 	 height:250px;
 	 width:100%;
  }
- .newsec {
+ #newsec {
 	 margin-bottom:0px;
  }
- .newmy5 {
+ #newmy5 {
 	margin-bottom: 1rem!important;	 
  }
  
