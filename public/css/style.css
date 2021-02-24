@@ -16498,22 +16498,34 @@ img.lazy-image.loaded{
 	 width:15%;
 	 z-index:9999;
 	 color:#000;
-	 font-size:16px;
+	 font-size:14px;
 	 border:1px solid #000;
 	 border-radius:0;
-	 background-color: #000;
+	 background-color: #fff;
  }
  .retable {
 	 font-size:13px;
+	 font-family: 'Noto Sans KR';
+ }
+ .retable > thead {
+	 display: none;
+ }
+ .retable > tbody {
+	 border-bottom: 1px solid #dee2e6;
  }
  .retable > tbody td:nth-child(1) {
 	 width: 70%;
  }
  .retable > tbody td:nth-child(1) > a {
 	 text-align:left;
+	 float:left;
+	 margin-left:5%;
  }
  .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
-	 color: #c1c1c1;
+	 color: #989898;
+ }
+ .retable > td, .retable th {
+	 padding:1.1rem;
  }
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
