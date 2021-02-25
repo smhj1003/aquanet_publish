@@ -8870,7 +8870,7 @@ img.lazy-image.loaded{
 
 .page-banner .inner-container{
 	position: relative;
-	padding: 130px 0px 35px;
+	padding: 140px 0px 20px;
 }
 
 .alt-banner .inner-container{
@@ -16504,7 +16504,7 @@ img.lazy-image.loaded{
 	 background-color: #fff;
  }
  .retable {
-	 font-size:14px;
+	 font-size:13px;
 	 font-family: 'Noto Sans KR';
  }
  .retable > thead {
@@ -16514,18 +16514,17 @@ img.lazy-image.loaded{
 	 border-bottom: 1px solid #dee2e6;
  }
  .retable > tbody td:nth-child(1) {
-	 width: 65%;
-	 padding:1.2rem;
+	 width: 70%;
+	 padding:1.1rem;
  }
  .retable > tbody td:nth-child(1) > a {
 	 text-align:left;
 	 float:left;
-	 margin-left:10%;
+	 margin-left:5%;
  }
  .retable > tbody td:nth-child(2), .retable > tbody td:nth-child(3) {
 	 color: #989898;
 	 padding:1.1rem;
-	 padding-right:5%;
  }
 
  /*게시판 내부*/
@@ -16535,20 +16534,8 @@ img.lazy-image.loaded{
  /* .newmy > li {
 	 border-top: 1px solid #dee2e6!important;
  } */
- .newmy #rhr {
+ .newmy hr {
 	 width:100%;
-	 margin-top:1.3rem;
-	 margin-bottom:1.3rem;
- }
- .p2 {
-	 width:100%;
- }
- .p2 .p-2:nth-child(2) {
-	letter-spacing: -1px;
- }
- .p2 .p-2:nth-child(4), .p2 .p-2:nth-child(5), .p2 .p-2:nth-child(7) {
-	 font-family: 'Noto Sans KR';
-	 color: #898989;
  }
  .divp2 {
 	 word-break: break-all;
@@ -16556,25 +16543,11 @@ img.lazy-image.loaded{
 	 height:250px;
 	 width:100%;
  }
- #newsec {
+ .newsec {
 	 margin-bottom:0px;
  }
- #newmy5 {
+ .newmy5 {
 	margin-bottom: 1rem!important;	 
- }
- .p-3 .btn-primary {
-	 color:#000;
-	 background-color:#fff;
-	 border: 1px solid #000;
-	 border-radius: 0px;
-	 width:22%;
-	 height: 50px;
-	 font-size:13px;
-	 font-weight:bold;
- }
- #newbtn {
-	 padding: 3rem!important;
-	 margin-bottom: 1rem;
  }
  
  /*21-02-24 전오상*/
