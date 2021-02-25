@@ -2,8 +2,16 @@ extends ../layout/default.pug
 block content
 	.container
 		.jumbotron
-			h2= title
-		div.form-wrap
+			.service-details
+						.sec-title#newsec
+							.title-icon
+								span.icon
+									img(src="/images/icons/blue-tang-fish.png" alt='' title='')
+							.subtitle notice
+							h2 공지/뉴스
+						.upper-content
+					if user && user.id
+		div.form-wrap#reform
 			form(method="post" name="boardForm" action=`${list ? '/board/saveUpdate' : '/board/save'}` enctype="multipart/form-data")
 				input(type="hidden" name="id" value=`${list && list.id ? list.id : ''}`)
 				input.form-control( tpye="text" name="title" placeholder="제목을 입력하세요." value=`${list && list.title ? list.title : ''}`)

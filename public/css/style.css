@@ -16578,6 +16578,9 @@ img.lazy-image.loaded{
 	 padding: 3rem!important;
 	 margin-bottom: 1rem;
  }
+ #reform {
+	 margin-bottom: 5%;
+ }
  
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
@@ -16723,6 +16726,9 @@ img.lazy-image.loaded{
 	}
 	.renews .btn-primary {
 		width: 25%;
+	}
+	.p-3 .btn-primary {
+		width: 40%;
 	}
  }
  @media only screen and (max-width: 376px) {
