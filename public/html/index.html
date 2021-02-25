@@ -205,7 +205,7 @@
                                     <!--설명글 br추가 21-02-17-11:32 전오상-->
                                 <div class="link-box clearfix">
                                     <a href="../html/about.html" class="theme-btn btn-style-one"><span class="btn-title">더 알아보기 <i class="arrow flaticon-play-button-1"></i></span></a>
-                                    <input type="button" onClick="youtubeFullscreen('https://youtu.be/qBtgPOcl9VI')" class="vid-link lightbox-image theme-btn btn-style-two"><span class="btn-title">영상보기 <i class="arrow flaticon-play-button-1"></i></span></a>
+                                    <a href="https://www.youtube.com/watch?v=qBtgPOcl9VI" class="vid-link lightbox-image theme-btn btn-style-two"><span class="btn-title">영상보기 <i class="arrow flaticon-play-button-1"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -925,16 +925,13 @@
 			level: 3
 		};
 
-		var map = new kakao.maps.Map(container, options);
-
-        function youtubeFullscreen(url){
-
-            window.open(url,"","fullscreen,scrollbars")
-
-            }
+		jQuery(function(){
+			jQuery("a.vid-link").YouTubePopUp();
+			jQuery("a.vid-link").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+		});
 </script>
 
-
+<script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/common.js"></script>
 
