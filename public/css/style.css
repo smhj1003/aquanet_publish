@@ -2321,6 +2321,7 @@ body.search-visible{
 	opacity: 0;
 	visibility: hidden;
 	z-index: 999999;
+	font-family: 'Noto Sans KR';
 }
 
 .mobile-menu .mCSB_inside > .mCSB_container{
