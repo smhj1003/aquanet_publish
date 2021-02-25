@@ -16623,7 +16623,16 @@ img.lazy-image.loaded{
 	.buttons {
 		display:none;
 	}
-	
+	/*뉴스부분*/
+	.retable > tbody td:nth-child(2),.retable > tbody td:nth-child(3) {
+		display: none;
+	}
+	.p2 .p-2:nth-child(4), .p2 .p-2:nth-child(5), .p2 .p-2:nth-child(7) {
+		font-size:17px;
+	}
+	.p-3 .btn-primary {
+		font-size:16px;
+	}
  }
 
  @media only screen and (max-width: 760px) {
@@ -16672,6 +16681,9 @@ img.lazy-image.loaded{
 	}
 	.banner-carousel .content-box .content {
 		padding: 35% 0;
+	}
+	.renews .btn-primary {
+		width: 25%;
 	}
  }
  @media only screen and (max-width: 376px) {
