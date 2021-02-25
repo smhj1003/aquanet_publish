@@ -14278,6 +14278,7 @@ img.lazy-image.loaded{
 
 .service-details{
 	position: relative;
+	z-index: 99;
 }
 
 .service-details .sec-title{
@@ -16651,6 +16652,12 @@ img.lazy-image.loaded{
 		display:none;
 	}
 	/*뉴스부분*/
+	#removebn {
+		display:none;
+	}
+	#renewbn {
+		height:50vw;
+	}
 	.retable > tbody td:nth-child(2),.retable > tbody td:nth-child(3) {
 		display: none;
 		font-size: 0;

@@ -46,6 +46,9 @@
 .service-tabs .tabs-content .s-title {
 padding-left: 0px;
 }
+#newInner {
+    padding-top:25%;
+}
 }
 
 @media only screen and (max-width: 500px){
