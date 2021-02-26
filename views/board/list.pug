@@ -29,7 +29,7 @@ block content
 				each v in lists
 					tr
 						td.text-center
-							a(href=`/board/${v.id}`)= v.title
+							a(href=`/board/view/${v.id}`)= v.title
 								if v.savefile
 									i.fa.fa-file.ml-2
 						td.d-none.d-sm-block= '아쿠아넷 담당자'
