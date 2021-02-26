@@ -70,7 +70,7 @@ router.get('/view/:id', async (req, res) => {
 				pug.list.imgSrc = imgFolder(pug.list.savefile);
 			}
 		}
-		res.render('./board/view.pug', pug);
+		res.render('./board', pug);
 	}
 	catch(e) {
 		next(createError(500, e.sqlMessage || e));
