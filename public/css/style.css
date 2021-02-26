@@ -16767,10 +16767,15 @@ img.lazy-image.loaded{
 		width: 40%;
 	}
 	#newmy5-2 {
+		margin-top: 2rem!important;
 		margin-bottom: 1rem!important;
 	}
 	.ck.ck-reset_all, .ck.ck-reset_all * {
 		font-size:10.5px!important;
+	}
+	#newbtn2 {
+		width:130px;
+		margin-left:8%;
 	}
  }
  @media only screen and (max-width: 376px) {
