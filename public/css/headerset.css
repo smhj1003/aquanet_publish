@@ -119,6 +119,9 @@ padding-left: 0px;
     
 }
 @media only screen and (max-width: 450px) {
+    .main-header {
+        height: 68px;
+    }
 	.banner-carousel .content-box .content {
 		padding: 55% 0px;
 	}
@@ -131,6 +134,15 @@ padding-left: 0px;
 	.banner-carousel .content-box .subtitle {
 		font-size: 20px;
 	}
+    .about-section .image-column {
+        margin-bottom: 0px;
+    }
+    .about-section .text-column {
+        margin-bottom: 0px;
+    }
+    .facts-section {
+        padding:95px 0px 120px;
+    }
  }
  @media only screen and (max-width: 400px){
     .nav-outer .mobile-nav-toggler {
