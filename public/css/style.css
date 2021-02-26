@@ -16714,6 +16714,9 @@ img.lazy-image.loaded{
 	.p-3 .btn-primary {
 		font-size:16px;
 	}
+	#newjumbo {
+		padding:10px;
+	}
  }
 
  @media only screen and (max-width: 760px) {
@@ -16762,6 +16765,12 @@ img.lazy-image.loaded{
 	}
 	.p-3 .btn-primary {
 		width: 40%;
+	}
+	#newmy5-2 {
+		margin-bottom: 1rem!important;
+	}
+	.ck.ck-reset_all, .ck.ck-reset_all * {
+		font-size:10.5px!important;
 	}
  }
  @media only screen and (max-width: 376px) {
