@@ -122,6 +122,9 @@ padding-left: 0px;
     .main-header {
         height: 68px;
     }
+    .banner-carousel .slide-item .image-layer {
+        opacity: 0.7;
+    }
 	.banner-carousel .content-box .content {
 		padding: 55% 0px;
 	}
