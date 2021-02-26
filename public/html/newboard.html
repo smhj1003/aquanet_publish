@@ -8,6 +8,7 @@
 <link href="../css/style.css" rel="stylesheet">
 <!-- Responsive File -->
 <link href="../css/responsive.css" rel="stylesheet">
+<link href="../css/headerset.css" rel="stylesheet">
 
 <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 <link rel="icon" href="../images/favicon.png" type="image/x-icon">
@@ -82,6 +83,7 @@
         <div class="header-lower">
             <div class="auto-container">
                 <div class="inner clearfix">
+                    <div class="logo2"><a href="index.html" title="aquanet"><img src="../images/logo_m.png" alt="aquanet" title="aquanet"></a></div>
                     <div class="nav-outer clearfix">
                         <!--Mobile Navigation Toggler-->
                          <div id="mobile-nav-toggler" class="mobile-nav-toggler"><span id="icon" class="icon flaticon-menu-1"></span></div>
@@ -198,24 +200,39 @@
     </section>
     <!--End Banner Section -->
     <div class="subtitle"></div>
-    <div class="container">
-      <div class="jumbotron">
-        <h2>게시글 작성</h2>
+    <div class="container"id="newcon">
+      <div class="jumbotron" id="newjumbo">
+        <div class="container"id="renewsboard">
+            <div class="my-5" id="newmy5-2">
+                <div class="service-details">
+                    <div class="sec-title"id="newsec">
+                        <div class="title-icon">
+                            <span class="icon">
+                                <img src="../images/icons/blue-tang-fish.png" alt='' title=''>                            
+                            </span>
+                        </div>
+                        <div class="subtitle">notice</div>
+                        <h2>공지/뉴스</h2>
+                    </div>
+                <div class="upper-content"id="newupper"></div>
+                </div>
+            </div>
       </div>
       <div class="form-wrap">
         <form method="post" name="boardForm" action="/board/save" enctype="multipart/form-data">
           <input type="hidden" name="id" value="">
           <input class="form-control" tpye="text" name="title" placeholder="제목을 입력하세요." value="">
           <div>
-            <input class="form-control-file" name="upfile" type="file">
+            <input class="form-control-file" name="upfile" type="file" id="newcontrol">
           </div>
             <textarea name="content" id="editor"></textarea>
           <hr>
-          <button class="btn btn-primary">저장</button>
+          <button class="btn btn-primary"id="newbtn2">저장</button>
           <!-- <button class="btn btn-danger" type="reset">다시작성</button> -->
-          <button class="btn btn-warning" onclick="location.href='/board';">공지사항가기</button>
+          <button class="btn btn-warning" onclick="location.href='/board';"id="newbtn2">돌아가기</button>
         </form>
       </div>
+    </div>
     </div>
     
     <script>

@@ -16582,7 +16582,38 @@ img.lazy-image.loaded{
 	 
 	 margin-bottom: 5%;
  }
- 
+ /*공지/뉴스 작성*/
+ #newjumbo {
+	 padding:2rem 5rem 2rem 5rem;
+	 background-color: #fff;
+ }
+ #renewsboard {
+	 padding:0;
+	 max-width:100%;
+ }
+ #newbtn2 {
+	 width: 100px;
+	 border-radius: 0px;
+	 font-size:14px;
+	 margin-right:1%;
+ }
+ #newcon {
+	 padding:0;
+ }
+ #newmy5-2 {
+	margin-top: 1rem !important;
+ }
+ .btn-warning{
+	 background-color: #ffffff;
+	 border-color:#000;
+ }
+ #newupper {
+	 height:50px;
+	 border-bottom: 1px solid rgba(0,0,0,0.1);
+ }
+ #newcontrol {
+	 padding:10px;
+ }
  /*21-02-24 전오상*/
  @media only screen and (max-width: 20000px) {
 	.logo2 {
