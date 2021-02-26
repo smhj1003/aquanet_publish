@@ -116,9 +116,24 @@ padding-left: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    @media only screen and (max-width: 400px){
-        .nav-outer .mobile-nav-toggler {
-            margin: -4% 0px 9px 0px;
-        }
+    
+}
+@media only screen and (max-width: 450px) {
+	.banner-carousel .content-box .content {
+		padding: 55% 0px;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 60%;
+	}
+	.banner-carousel .content-box h1 {
+		font-size: 48px;
+	}
+	.banner-carousel .content-box .subtitle {
+		font-size: 20px;
+	}
+ }
+ @media only screen and (max-width: 400px){
+    .nav-outer .mobile-nav-toggler {
+        margin: -4% 0px 9px 0px;
     }
 }
