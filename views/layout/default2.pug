@@ -1,0 +1,29 @@
+doctype html
+html(lang="ko")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title= title
+		include ../inc/style.pug
+		link(rel="stylesheet" href=`/css/${css}.css`)
+		include ../inc/script.pug
+	body
+		//- .preloader
+		.icon
+		include /inc/header2.pug
+		block content
+		include ../inc/footer.pug
+		//- script(src=`../js/${js}.js`)
+		script(src=`../js/jquery.js`)
+		script(src=`../js/popper.min.js`)
+		script(src=`../js/bootstrap.min.js`)
+		script(src=`../js/jquery-ui.js`)
+		script(src=`../js/jquery.fancybox.js`)
+		script(src=`../js/validate.js`)
+		script(src=`../js/scrollbar.js`)
+		script(src=`../js/appear.js`)
+		script(src=`../js/wow.js`)
+		script(src=`../js/custom-script.js`)
+		script(src=`../js/board.js`)
+		//- script(src=`https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js`)
+
