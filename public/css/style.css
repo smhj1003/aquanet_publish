@@ -16745,7 +16745,7 @@ img.lazy-image.loaded{
  }
  @media only screen and (max-width: 500px) {
 	.banner-carousel .content-box .link-box {
-		padding-top: 35%;
+		padding-top: 50%;
 	}
 	/* .nav-outer .mobile-nav-toggler {
 		font-size: 25px;
