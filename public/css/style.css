@@ -16773,9 +16773,14 @@ img.lazy-image.loaded{
 	.ck.ck-reset_all, .ck.ck-reset_all * {
 		font-size:10.5px!important;
 	}
+	.btncenter{
+		text-align: center;
+	}
 	#newbtn2 {
 		width:130px;
-		margin-left:8%;
+		height:42px;
+		margin-right:0px;
+		margin:2%;
 	}
  }
  @media only screen and (max-width: 376px) {
