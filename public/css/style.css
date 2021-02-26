@@ -16625,6 +16625,7 @@ img.lazy-image.loaded{
 		display: inline-block;
 		width:30%;
 		margin-top:5%;
+		z-index:9999;
 	}
 	.logo2 > a > img{
 		position: relative;
