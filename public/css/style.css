@@ -16617,18 +16617,24 @@ img.lazy-image.loaded{
 	} */
 	.logo2 {
 		display:inline-block;
+		width:100%;
+		position:relative;
+	}
+	.logo2 > a {
+		position:relative;
+		display: inline-block;
+		width:30%;
+		margin-top:5%;
 	}
 	.logo2 > a > img{
 		position: relative;
-		top: 35px;
 		left: 3%;
-		width: 30%;
 	}/*21-02-22 11:28 로고수정 전오상*/
-	.nav-outer .mobile-nav-toggler {
+	/* .nav-outer .mobile-nav-toggler {
 		font-size: 45px;
 		line-height: 20px;
 		padding-right: 40%;
-	}
+	} */
 	.banner-carousel .content-box .content {
 		padding: 40% 0px;
 	}
@@ -16703,21 +16709,15 @@ img.lazy-image.loaded{
 	 }
  }
  @media only screen and (max-width: 500px) {
-	.logo2 > a > img{
-		position: absolute;
-		top: 50%;
-		left: 3%;
-		width: 35%;
-	}
 	.banner-carousel .content-box .link-box {
 		padding-top: 35%;
 	}
-	.nav-outer .mobile-nav-toggler {
+	/* .nav-outer .mobile-nav-toggler {
 		font-size: 25px;
 		line-height: 0px;
 		padding-right: 0px;
 		margin: 20px 0px 9px 0px
-	}
+	} */
 	.about-section .text-column .lower-box {
 		padding-top:0;
 		padding-bottom:40px;
