@@ -42,5 +42,7 @@ $(function() {
             $(".main-header").css("background", "rgba(0,0,0,0)");
         }
     });
-
+    $("#viewImg").on("click", function(){
+        location.href="index.html";
+    })
 })
