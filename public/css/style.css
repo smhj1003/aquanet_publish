@@ -16783,6 +16783,14 @@ img.lazy-image.loaded{
 		margin:2%;
 	}
  }
+ @media only screen and (max-width: 450px) {
+	.banner-carousel .content-box .content {
+		padding: 55% 0px;
+	}
+	.banner-carousel .content-box .link-box {
+		padding-top: 90%;
+	}
+ }
  @media only screen and (max-width: 376px) {
 	.banner-carousel .content-box .content {
 		padding: 75% 0px;
