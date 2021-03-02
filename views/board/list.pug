@@ -17,9 +17,9 @@ block content
 			
 				
 	.container.my-5.justify-content-center
-	if user && user.id
-					div.button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
-					a.btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT
+		if user && user.id
+						div.button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+						a.btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT
 		table.table.text-center.retable
 			thead
 					tr
