@@ -241,11 +241,12 @@
     ClassicEditor
         .create( document.querySelector( '#editor' ), {
             // 제거 하고싶은 플러그인 (배열)
-             removePlugins: [ 'ImageUpload','blockQuote' ]
+             removePlugins: [ 'ImageUpload','IndentList']
         } )
         .catch( error => {
             console.error( error );
         } );
+        console.log(document.querySelector( '#editor' ));
     </script>
 
    
