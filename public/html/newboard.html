@@ -29,8 +29,8 @@
 <!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/common.js"></script>
-<script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
-
+<!-- <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script> -->
+<script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
 </head>
 
 <body>
@@ -238,14 +238,7 @@
     </div>
     
     <script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ), {
-            // 제거 하고싶은 플러그인 (배열)
-             removePlugins: [ 'ImageUpload' ]
-        } )
-        .catch( error => {
-            console.error( error );
-        } );
+        CKEDITOR.replace( 'content' );
     </script>
 
    
