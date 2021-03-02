@@ -16698,6 +16698,9 @@ img.lazy-image.loaded{
 	.buttons {
 		display:none;
 	}
+	#Hmtxt > h5{
+		margin-right: 0px;
+	}
 	/*뉴스부분*/
 	#removebn {
 		
