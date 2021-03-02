@@ -16574,10 +16574,25 @@ img.lazy-image.loaded{
 	 font-size:13px;
 	 font-weight:bold;
  }
+
+ .p-3 .btn-primary2 {
+	color:#000;
+	background-color:#fff;
+	border: 1px solid #000;
+	border-radius: 0px;
+	width:22%;
+	height: 25px;
+	font-size:13px;
+	font-weight:bold;
+}
  #newbtn {
 	 padding: 3rem!important;
 	 margin-bottom: 1rem;
  }
+ #newbt2 {
+	padding: 1rem!important;
+	margin-bottom: 1rem;
+}
  #reform {
 	 
 	 margin-bottom: 5%;
