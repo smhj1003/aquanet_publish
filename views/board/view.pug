@@ -24,7 +24,7 @@ block content
 				//- span(style="flex: 30% 0 0;").p-2.bg-light 제목 div.p2(style="font-size:20px;")=list.title
 				div.p2
 					hr#rhr
-					span.p-2(style="font-size:20px;")=list.title!=null?list.title:'제목없음'
+					span.p-2(style="font-size:20px;")=list.title!=''?list.title:'제목없음'
 					div
 					span.p-2(style="font-size:13px; padding: 0;")= '아쿠아넷 관리자'
 					span.p-2(style="font-size:13px;")= list.wdate
