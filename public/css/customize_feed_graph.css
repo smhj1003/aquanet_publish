@@ -126,6 +126,11 @@
     margin:45% 0%;
     font-size:17px;
   }
+  #product-table td div p {
+    font-size: 3vw;
+    text-align: center;
+    margin: 44% auto;
+  }
 }
 @media only screen and (max-width: 479px) {
 

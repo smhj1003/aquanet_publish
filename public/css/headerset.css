@@ -49,6 +49,9 @@
 .service-tabs .tabs-content .s-title {
 padding-left: 0px;
 }
+#cataimg{
+    text-align: center;
+}
 #newInner {
     padding-top:25%;
 }
