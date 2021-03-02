@@ -4,7 +4,7 @@ block content
 	.container.renews
 		.my-5
 			.service-details
-				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+				//- button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
 				.sec-title
 					.title-icon
 						span.icon
@@ -15,7 +15,7 @@ block content
 			if user && user.id
 			hr
 			//- button.btn.btn-primary(onclick="location.href='/board/write';") 글작성 21-02-24 전오상
-			
+			button.btn.btn-primary(onclick="location.href='/html/newboard.html';")
 			if user && user.id
 				a.btn.btn-danger.text-white.navi(href='/user/logout') LOGOUT
 	.container.my-5.justify-content-center
