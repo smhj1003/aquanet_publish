@@ -131,14 +131,19 @@
 @media only screen and (max-width: 500px) {
   .color_text span{
     font-size:3.3vw;
+    line-height:33px;
   }
   .color_box {
-    height:100px;
+    height:115px;
   }
   .color_text {
-    height: 100px;
+    height: 115px;
     padding: 6px 0 0 0;
   }
+  .color_text span.left {
+    margin-left: 9%;
+  }
+
 }
 
 @media(max-width: 479px){
@@ -154,7 +159,6 @@
   }
   .color_box{
     width: 100px;
-    height: 130px;
     /*margin: 5% 0;*/
     position: relative;
   }
