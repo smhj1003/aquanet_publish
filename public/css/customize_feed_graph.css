@@ -122,6 +122,9 @@
   }
 }
 @media only screen and (max-width: 500px){
+  #product-table{
+    transform: translate(0%);
+  }
   #product-table td div p {
     margin:45% 0%;
     font-size:17px;
@@ -130,6 +133,10 @@
     font-size: 3vw;
     text-align: center;
     margin: 44% auto;
+  }
+  #product-table td div{
+    padding-top: 0;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -159,7 +166,6 @@
   #product-table td div {
     width: 115px;
     height: 115px;
-    padding: 5% 12% 0% 12%;
   }
 
 }/*21-02-18 15:12 그래프 사이즈 수정 전오상*/
@@ -168,7 +174,6 @@
   #product-table td div {
     width: 105px;
     height: 105px;
-    padding: 5% 10% 0% 10%;
   }
 }
 
