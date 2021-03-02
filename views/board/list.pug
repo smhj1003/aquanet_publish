@@ -4,6 +4,7 @@ block content
 	.container.renews
 		.my-5
 			.service-details
+			if user && user.id
 				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
 				.sec-title
 					.title-icon
