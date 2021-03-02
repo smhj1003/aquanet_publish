@@ -50,9 +50,9 @@ block content
 					div.p-2
 						img.mw-100(src=`${list.imgSrc}`)
 		.p-3#newbtn.text-center
-			button.btn.btn-primary(onclick="location.href='/board';" style="marging:15px") 목록
+			button.btn.btn-primary(onclick="location.href='/board';" style="margin:15px") 목록
 			if user && user.id
-				button.btn.btn-primary(onclick="location.href='/html/newboard.html';" style="marging:15px") 글쓰기
+				button.btn.btn-primary(onclick="location.href='/html/newboard.html';" style="margin:15px") 글쓰기
 			if user && user.id && user.id == list.uid
 				//- button.btn.btn-primary(onclick=`location.href='/board/update/${list.id};'`) 수정
-				button.btn.btn-primary(onclick=`onDelete(${list.id});` style="marging:15px") 삭제
+				button.btn.btn-primary(onclick=`onDelete(${list.id});` style="margin:15px") 삭제
