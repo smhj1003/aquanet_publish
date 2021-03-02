@@ -15,12 +15,12 @@ block content
 				if user && user.id
 				hr
 			
-  .p-3#newbtn.text-center
-		if user && user.id
-						button.p-3btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
-						button.p-3btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT			
-	.container.my-5.justify-content-center
 		
+	.container.my-5.justify-content-center
+		.p-3#newbtn.text-center
+			if user && user.id
+						button.p-3btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+						button.p-3btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT		
 		table.table.text-center.retable
 			thead
 					tr
