@@ -11,9 +11,8 @@ block content
 							img(src='/images/icons/blue-tang-fish.png' alt='' title='')
 					.subtitle notice
 					h2 공지/뉴스
-	
-	.p-3#newbtn.text-center
-			if user && user.id
+	if user && user.id
+	  .p-3#newbtn.text-center
 						button.p-3btn.btn-primary.text-white.navi(onclick="location.href='/html/newboard.html';") 글작성
 						button.p-3btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT		
 	.container.my-5.justify-content-center
