@@ -29,8 +29,8 @@
 <!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/common.js"></script>
-<!-- <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script> -->
-<script src="https://cdn.ckeditor.com/4.16.0/basic/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
+
 </head>
 
 <body>
@@ -230,7 +230,7 @@
           <div class="btncenter">
           <button class="btn btn-primary"id="newbtn2">저장</button>
           <!-- <button class="btn btn-danger" type="reset">다시작성</button> -->
-          <button class="btn btn-warning" onclick="location.href='/board';" id="newbtn2">돌아가기</button>
+          <button class="btn btn-warning" onclick="location.href='/board';"id="newbtn2">돌아가기</button>
             </div>
         </form>
       </div>
@@ -238,7 +238,14 @@
     </div>
     
     <script>
-        CKEDITOR.replace( 'content' );
+    ClassicEditor
+        .create( document.querySelector( '#editor' ), {
+            // 제거 하고싶은 플러그인 (배열)
+             removePlugins: [ 'ImageUpload' ]
+        } )
+        .catch( error => {
+            console.error( error );
+        } );
     </script>
 
    
