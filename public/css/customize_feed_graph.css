@@ -123,9 +123,8 @@
 }
 @media only screen and (max-width: 500px){
   #product-table{
-    transform: translate(0%);
-    width:96%;
-    margin-left:0;
+    transform: translate(-3%);
+    width:90%;
   }
   #product-table td div p {
     margin:45% 0%;
@@ -140,7 +139,9 @@
     padding-top: 0;
     padding: 0;
   }
-  .animate-box #product-table {}
+  .animate-box #product-table {
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 479px) {
 
