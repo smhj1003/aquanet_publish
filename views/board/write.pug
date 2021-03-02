@@ -14,7 +14,7 @@ block content
 		div.form-wrap#reform
 			form(method="post" name="boardForm" action=`${list ? '/board/saveUpdate' : '/board/save'}` enctype="multipart/form-data")
 				input(type="hidden" name="id" value=`${list && list.id ? list.id : ''}`)
-				input.form-control( tpye="text" name="title" placeholder="제목을 입력하세요." value=`${list && list.title ? list.title : '제목없음'}`)
+				input.form-control( tpye="text" name="title" placeholder="제목을 입력하세요." value=`${list && list.title ? list.title : ''}`)
 				div
 					if list && list.savefile
 						.file-wrap.py-2.mb-2.border-bottom
