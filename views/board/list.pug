@@ -12,10 +12,11 @@ block content
 					.subtitle notice
 					h2 공지/뉴스
 					.upper-content
-				if user && user.id
+				//- if user && user.id
 				hr
-				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
+				
 				if user && user.id
+					button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글작성
 					a.btn.btn-primary.text-white.navi(href='/user/logout') LOGOUT
 	.container.my-5.justify-content-center
 		table.table.text-center.retable
