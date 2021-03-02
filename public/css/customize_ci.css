@@ -142,6 +142,7 @@
   }
   .color_text span.left {
     margin-left: 9%;
+    font-weight: 500;
   }
 
 }
