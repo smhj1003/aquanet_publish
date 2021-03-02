@@ -128,7 +128,18 @@
     font-size: 2vw;
   }
 }/*사이즈수정 21-02-18 14:33전오상*/
-
+@media only screen and (max-width: 500px) {
+  .color_text span{
+    font-size:3.3vw;
+  }
+  .color_box {
+    height:100px;
+  }
+  .color_text {
+    height: 100px;
+    padding: 6px 0 0 0;
+  }
+}
 
 @media(max-width: 479px){
 
