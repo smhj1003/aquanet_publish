@@ -54,5 +54,5 @@ block content
 			if user && user.id
 				button.btn.btn-primary(onclick="location.href='/html/newboard.html';") 글쓰기
 			if user && user.id && user.id == list.uid
-				button.btn.btn-primary(onclick=`location.href='/board/update/${list.id};'`) 수정
+				//- button.btn.btn-primary(onclick=`location.href='/board/update/${list.id};'`) 수정
 				button.btn.btn-primary(onclick=`onDelete(${list.id});`) 삭제
