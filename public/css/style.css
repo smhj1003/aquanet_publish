@@ -16838,6 +16838,12 @@ img.lazy-image.loaded{
 		top: 21px;
 		font-size: 14px;
 	}
+	.mobile-menu .nav-logo {
+		padding: 0;
+		padding-top: 24px;
+		padding-left: 25px;
+		height:74px;
+	}
  }
  
  @media only screen and (max-width: 376px) {
