@@ -16750,8 +16750,7 @@ img.lazy-image.loaded{
 		padding:10px;
 	}
 	.Mimg{
-		display:inline-block;
-		top:6px;
+		display:block;
 	}
 	.pcimg{
 		display:none;
