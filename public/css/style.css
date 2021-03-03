@@ -958,7 +958,7 @@ img{
 .main-header .other-links{
 	position: relative;
 	float: right;
-	padding: 30px 0px 20px;
+	padding: 26px 0px 26px;
 }
 
 .main-header .other-links .info{
@@ -2030,7 +2030,7 @@ img{
 }
 
 .fixed-header .sticky-header .logo{
-	padding: 25px 0 5px 0px;
+	padding: 22px 0 5px 0px;
 }
 
 .fixed-header .sticky-header .logo img{
@@ -5088,7 +5088,7 @@ img.lazy-image.loaded{
 .blog-section{
 	position:relative;
 	background: #ffffff;
-	padding: 100px 0px 70px;
+	padding: 160px 0px 70px;
 }
 
 .blog-section.blog-page{
@@ -16655,11 +16655,17 @@ img.lazy-image.loaded{
 	height:100px;
 	display: none;
 }
+.Mtxt{
+	display:none;
+}
+.mtxt{
+	display:none;
+}
+.Mimg{
+	display:none;
+}
  @media only screen and (max-width: 20000px) {
 	.logo2 {
-		display:none;
-	}
-	.mtxt{
 		display:none;
 	}
 	.Mimg{
