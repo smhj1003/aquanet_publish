@@ -31,6 +31,9 @@
 .pctxt{
     display:none;
 }
+.Mtxt{
+    display: inline-block;
+}
 .footer-bottom {
     display: none;
 }
