@@ -16728,10 +16728,10 @@ img.lazy-image.loaded{
 	}
 	/*뉴스부분*/
 	#removebn {
-		
+		height:75vw;
 	}
 	#renewbn {
-		height:50vw;
+		height:75vw;
 	}
 	.retable > tbody td:nth-child(2),.retable > tbody td:nth-child(3) {
 		display: none;
