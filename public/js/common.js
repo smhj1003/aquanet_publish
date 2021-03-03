@@ -70,4 +70,14 @@ $(function() {
                 lastScrollTop=st;
             });
     });
+    $(function(){
+        $(".banner-section").on("mouseover", function(){
+            $(".owl-prev").css('display', 'inline-block');
+            $(".owl-next").css('display', 'inline-block');
+        });
+        $(".banner-section").on("mouseout", function(){
+            $(".owl-prev").css('display', 'none');
+            $(".owl-next").css('display', 'none');
+        })
+    })
 })

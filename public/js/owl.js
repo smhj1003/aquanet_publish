@@ -2974,6 +2974,10 @@
 			'owl-prev',
 			'owl-next'
 		],
+		navElement: [
+			'owl-previd',
+			'owl-nextid'
+		],
 		slideBy: 1,
 		dotClass: 'owl-dot',
 		dotsClass: 'owl-dots',

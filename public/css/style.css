@@ -3128,12 +3128,12 @@ img.lazy-image.loaded{
 	right: 50px;
 }
 
-.banner-section .banner-carousel .owl-nav .owl-prev:hover,
+/* .banner-section .banner-carousel .owl-nav .owl-prev:hover,
 .banner-section .banner-carousel .owl-nav .owl-next:hover{
 	background: #1ba6ff;
 	border-color: #1ba6ff;
 	color: #ffffff;
-}
+} 호버시 파란색*/
 
 .banner-section .owl-dots{
 	position: absolute;
@@ -16634,6 +16634,27 @@ img.lazy-image.loaded{
  .root_daum_roughmap_landing{
 	 width:100%;
  }
+ .owl-next > span, .owl-prev > span{
+    display: none;
+}
+.banner-section .banner-carousel .owl-nav .owl-next {
+    right:5%;
+	background-image: url(../images/buttonRR.png);
+    background-size:cover;
+    background-color: rgba(0,0,0,0);
+	width:50px;
+	height:100px;
+	display: none;
+}
+.banner-section .banner-carousel .owl-nav .owl-prev {
+    left:5%;
+	background-image: url(../images/buttonLL.png);
+    background-size:cover;
+    background-color: rgba(0,0,0,0);
+	width:50px;
+	height:100px;
+	display: none;
+}
  @media only screen and (max-width: 20000px) {
 	.logo2 {
 		display:none;
