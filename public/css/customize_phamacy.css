@@ -78,3 +78,14 @@ thead th:first-child, tbody th{ }
     }
  
 }/*21-02-19 10:46 전오상*/
+@media only screen and (max-width: 400px) {
+    .table td, .table th{
+        padding: 0.8rem;
+    }
+    #Minner {
+        padding:0;
+    }
+    #ph-name {
+        font-size: 18px;
+    }
+}
