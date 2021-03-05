@@ -76,12 +76,15 @@ thead th:first-child, tbody th{ }
         width: 220%;
         
     }
-    #ph-name {
+    /* #ph-name {
         font-size: 5.5vw;
+    } */
+    #Minner {
+        padding:0;
     }
 }
  
-}/*21-02-19 10:46 전오상*/
+/*21-02-19 10:46 전오상*/
 @media only screen and (max-width: 400px) {
     .table td, .table th{
         padding: 0.8rem;
@@ -89,4 +92,4 @@ thead th:first-child, tbody th{ }
     #Minner {
         padding:0;
     }
-    
+}
